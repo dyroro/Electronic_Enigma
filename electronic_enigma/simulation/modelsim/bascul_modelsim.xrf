@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/user/Desktop/electronic_enigma/bascul.vhd
+source_file = 1, C:/Users/user/Desktop/electronic_enigma/db/bascul.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = bascul
+instance = comp, \q~output\, q~output, bascul, 1
+instance = comp, \clk~input\, clk~input, bascul, 1
+instance = comp, \d~input\, d~input, bascul, 1
+instance = comp, \q~reg0feeder\, q~reg0feeder, bascul, 1
+instance = comp, \q~reg0\, q~reg0, bascul, 1

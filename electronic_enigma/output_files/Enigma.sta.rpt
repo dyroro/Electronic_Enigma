@@ -1,0 +1,1605 @@
+TimeQuest Timing Analyzer report for Enigma
+Mon May 06 23:05:22 2024
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Propagation Delay
+ 13. Minimum Propagation Delay
+ 14. Slow 1200mV 85C Model Metastability Report
+ 15. Slow 1200mV 0C Model Fmax Summary
+ 16. Slow 1200mV 0C Model Setup Summary
+ 17. Slow 1200mV 0C Model Hold Summary
+ 18. Slow 1200mV 0C Model Recovery Summary
+ 19. Slow 1200mV 0C Model Removal Summary
+ 20. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 21. Propagation Delay
+ 22. Minimum Propagation Delay
+ 23. Slow 1200mV 0C Model Metastability Report
+ 24. Fast 1200mV 0C Model Setup Summary
+ 25. Fast 1200mV 0C Model Hold Summary
+ 26. Fast 1200mV 0C Model Recovery Summary
+ 27. Fast 1200mV 0C Model Removal Summary
+ 28. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 29. Propagation Delay
+ 30. Minimum Propagation Delay
+ 31. Fast 1200mV 0C Model Metastability Report
+ 32. Multicorner Timing Analysis Summary
+ 33. Propagation Delay
+ 34. Minimum Propagation Delay
+ 35. Board Trace Model Assignments
+ 36. Input Transition Times
+ 37. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 38. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 39. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 40. Clock Transfers
+ 41. Report TCCS
+ 42. Report RSKM
+ 43. Unconstrained Paths
+ 44. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name      ; Enigma                                             ;
+; Device Family      ; Cyclone IV GX                                      ;
+; Device Name        ; EP4CGX15BF14C6                                     ;
+; Timing Models      ; Final                                              ;
+; Delay Model        ; Combined                                           ;
+; Rise/Fall Delays   ; Enabled                                            ;
++--------------------+----------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
+-----------------------------------------------------
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
+-----------------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------------+
+; Propagation Delay                                                          ;
++--------------------+---------------+---------+---------+---------+---------+
+; Input Port         ; Output Port   ; RR      ; RF      ; FR      ; FF      ;
++--------------------+---------------+---------+---------+---------+---------+
+; position_rotor1[0] ; signal_out[0] ; 192.936 ; 192.761 ; 193.355 ; 193.180 ;
+; position_rotor1[0] ; signal_out[1] ; 193.043 ; 192.951 ; 193.462 ; 193.370 ;
+; position_rotor1[0] ; signal_out[2] ; 192.283 ; 192.149 ; 192.702 ; 192.568 ;
+; position_rotor1[0] ; signal_out[3] ; 192.766 ; 192.591 ; 193.185 ; 193.010 ;
+; position_rotor1[0] ; signal_out[4] ; 192.590 ; 192.495 ; 193.009 ; 192.914 ;
+; position_rotor1[0] ; signal_out[6] ; 193.411 ; 193.291 ; 193.830 ; 193.710 ;
+; position_rotor1[1] ; signal_out[0] ; 192.708 ; 192.533 ; 193.351 ; 193.176 ;
+; position_rotor1[1] ; signal_out[1] ; 192.815 ; 192.723 ; 193.458 ; 193.366 ;
+; position_rotor1[1] ; signal_out[2] ; 192.055 ; 191.921 ; 192.698 ; 192.564 ;
+; position_rotor1[1] ; signal_out[3] ; 192.538 ; 192.363 ; 193.181 ; 193.006 ;
+; position_rotor1[1] ; signal_out[4] ; 192.362 ; 192.267 ; 193.005 ; 192.910 ;
+; position_rotor1[1] ; signal_out[6] ; 193.183 ; 193.063 ; 193.826 ; 193.706 ;
+; position_rotor1[2] ; signal_out[0] ; 192.782 ; 192.607 ; 193.195 ; 193.020 ;
+; position_rotor1[2] ; signal_out[1] ; 192.889 ; 192.797 ; 193.302 ; 193.210 ;
+; position_rotor1[2] ; signal_out[2] ; 192.129 ; 191.995 ; 192.542 ; 192.408 ;
+; position_rotor1[2] ; signal_out[3] ; 192.612 ; 192.437 ; 193.025 ; 192.850 ;
+; position_rotor1[2] ; signal_out[4] ; 192.436 ; 192.341 ; 192.849 ; 192.754 ;
+; position_rotor1[2] ; signal_out[6] ; 193.257 ; 193.137 ; 193.670 ; 193.550 ;
+; position_rotor1[3] ; signal_out[0] ; 190.438 ; 190.263 ; 190.805 ; 190.630 ;
+; position_rotor1[3] ; signal_out[1] ; 190.545 ; 190.453 ; 190.912 ; 190.820 ;
+; position_rotor1[3] ; signal_out[2] ; 189.785 ; 189.651 ; 190.152 ; 190.018 ;
+; position_rotor1[3] ; signal_out[3] ; 190.268 ; 190.093 ; 190.635 ; 190.460 ;
+; position_rotor1[3] ; signal_out[4] ; 190.092 ; 189.997 ; 190.459 ; 190.364 ;
+; position_rotor1[3] ; signal_out[6] ; 190.913 ; 190.793 ; 191.280 ; 191.160 ;
+; position_rotor1[4] ; signal_out[0] ; 190.447 ; 190.272 ; 190.600 ; 190.425 ;
+; position_rotor1[4] ; signal_out[1] ; 190.554 ; 190.462 ; 190.707 ; 190.615 ;
+; position_rotor1[4] ; signal_out[2] ; 189.794 ; 189.660 ; 189.947 ; 189.813 ;
+; position_rotor1[4] ; signal_out[3] ; 190.277 ; 190.102 ; 190.430 ; 190.255 ;
+; position_rotor1[4] ; signal_out[4] ; 190.101 ; 190.006 ; 190.254 ; 190.159 ;
+; position_rotor1[4] ; signal_out[6] ; 190.922 ; 190.802 ; 191.075 ; 190.955 ;
+; position_rotor2[0] ; signal_out[0] ; 165.432 ; 165.257 ; 165.890 ; 165.715 ;
+; position_rotor2[0] ; signal_out[1] ; 165.539 ; 165.447 ; 165.997 ; 165.905 ;
+; position_rotor2[0] ; signal_out[2] ; 164.779 ; 164.645 ; 165.237 ; 165.103 ;
+; position_rotor2[0] ; signal_out[3] ; 165.262 ; 165.087 ; 165.720 ; 165.545 ;
+; position_rotor2[0] ; signal_out[4] ; 165.086 ; 164.991 ; 165.544 ; 165.449 ;
+; position_rotor2[0] ; signal_out[6] ; 165.907 ; 165.787 ; 166.365 ; 166.245 ;
+; position_rotor2[1] ; signal_out[0] ; 165.291 ; 165.116 ; 165.982 ; 165.807 ;
+; position_rotor2[1] ; signal_out[1] ; 165.398 ; 165.306 ; 166.089 ; 165.997 ;
+; position_rotor2[1] ; signal_out[2] ; 164.638 ; 164.504 ; 165.329 ; 165.195 ;
+; position_rotor2[1] ; signal_out[3] ; 165.121 ; 164.946 ; 165.812 ; 165.637 ;
+; position_rotor2[1] ; signal_out[4] ; 164.945 ; 164.850 ; 165.636 ; 165.541 ;
+; position_rotor2[1] ; signal_out[6] ; 165.766 ; 165.646 ; 166.457 ; 166.337 ;
+; position_rotor2[2] ; signal_out[0] ; 163.323 ; 163.148 ; 163.433 ; 163.258 ;
+; position_rotor2[2] ; signal_out[1] ; 163.430 ; 163.338 ; 163.540 ; 163.448 ;
+; position_rotor2[2] ; signal_out[2] ; 162.670 ; 162.536 ; 162.780 ; 162.646 ;
+; position_rotor2[2] ; signal_out[3] ; 163.153 ; 162.978 ; 163.263 ; 163.088 ;
+; position_rotor2[2] ; signal_out[4] ; 162.977 ; 162.882 ; 163.087 ; 162.992 ;
+; position_rotor2[2] ; signal_out[6] ; 163.798 ; 163.678 ; 163.908 ; 163.788 ;
+; position_rotor2[3] ; signal_out[0] ; 163.084 ; 162.909 ; 163.404 ; 163.229 ;
+; position_rotor2[3] ; signal_out[1] ; 163.191 ; 163.099 ; 163.511 ; 163.419 ;
+; position_rotor2[3] ; signal_out[2] ; 162.431 ; 162.297 ; 162.751 ; 162.617 ;
+; position_rotor2[3] ; signal_out[3] ; 162.914 ; 162.739 ; 163.234 ; 163.059 ;
+; position_rotor2[3] ; signal_out[4] ; 162.738 ; 162.643 ; 163.058 ; 162.963 ;
+; position_rotor2[3] ; signal_out[6] ; 163.559 ; 163.439 ; 163.879 ; 163.759 ;
+; position_rotor2[4] ; signal_out[0] ; 164.808 ; 164.633 ; 164.986 ; 164.811 ;
+; position_rotor2[4] ; signal_out[1] ; 164.915 ; 164.823 ; 165.093 ; 165.001 ;
+; position_rotor2[4] ; signal_out[2] ; 164.155 ; 164.021 ; 164.333 ; 164.199 ;
+; position_rotor2[4] ; signal_out[3] ; 164.638 ; 164.463 ; 164.816 ; 164.641 ;
+; position_rotor2[4] ; signal_out[4] ; 164.462 ; 164.367 ; 164.640 ; 164.545 ;
+; position_rotor2[4] ; signal_out[6] ; 165.283 ; 165.163 ; 165.461 ; 165.341 ;
+; position_rotor3[0] ; signal_out[0] ; 139.398 ; 139.223 ; 139.804 ; 139.629 ;
+; position_rotor3[0] ; signal_out[1] ; 139.505 ; 139.413 ; 139.911 ; 139.819 ;
+; position_rotor3[0] ; signal_out[2] ; 138.745 ; 138.611 ; 139.151 ; 139.017 ;
+; position_rotor3[0] ; signal_out[3] ; 139.228 ; 139.053 ; 139.634 ; 139.459 ;
+; position_rotor3[0] ; signal_out[4] ; 139.052 ; 138.957 ; 139.458 ; 139.363 ;
+; position_rotor3[0] ; signal_out[6] ; 139.873 ; 139.753 ; 140.279 ; 140.159 ;
+; position_rotor3[1] ; signal_out[0] ; 139.376 ; 139.201 ; 140.051 ; 139.876 ;
+; position_rotor3[1] ; signal_out[1] ; 139.483 ; 139.391 ; 140.158 ; 140.066 ;
+; position_rotor3[1] ; signal_out[2] ; 138.723 ; 138.589 ; 139.398 ; 139.264 ;
+; position_rotor3[1] ; signal_out[3] ; 139.206 ; 139.031 ; 139.881 ; 139.706 ;
+; position_rotor3[1] ; signal_out[4] ; 139.030 ; 138.935 ; 139.705 ; 139.610 ;
+; position_rotor3[1] ; signal_out[6] ; 139.851 ; 139.731 ; 140.526 ; 140.406 ;
+; position_rotor3[2] ; signal_out[0] ; 139.191 ; 139.016 ; 139.603 ; 139.428 ;
+; position_rotor3[2] ; signal_out[1] ; 139.298 ; 139.206 ; 139.710 ; 139.618 ;
+; position_rotor3[2] ; signal_out[2] ; 138.538 ; 138.404 ; 138.950 ; 138.816 ;
+; position_rotor3[2] ; signal_out[3] ; 139.021 ; 138.846 ; 139.433 ; 139.258 ;
+; position_rotor3[2] ; signal_out[4] ; 138.845 ; 138.750 ; 139.257 ; 139.162 ;
+; position_rotor3[2] ; signal_out[6] ; 139.666 ; 139.546 ; 140.078 ; 139.958 ;
+; position_rotor3[3] ; signal_out[0] ; 139.514 ; 139.339 ; 140.163 ; 139.988 ;
+; position_rotor3[3] ; signal_out[1] ; 139.621 ; 139.529 ; 140.270 ; 140.178 ;
+; position_rotor3[3] ; signal_out[2] ; 138.861 ; 138.727 ; 139.510 ; 139.376 ;
+; position_rotor3[3] ; signal_out[3] ; 139.344 ; 139.169 ; 139.993 ; 139.818 ;
+; position_rotor3[3] ; signal_out[4] ; 139.168 ; 139.073 ; 139.817 ; 139.722 ;
+; position_rotor3[3] ; signal_out[6] ; 139.989 ; 139.869 ; 140.638 ; 140.518 ;
+; position_rotor3[4] ; signal_out[0] ; 138.876 ; 138.701 ; 139.186 ; 139.011 ;
+; position_rotor3[4] ; signal_out[1] ; 138.983 ; 138.891 ; 139.293 ; 139.201 ;
+; position_rotor3[4] ; signal_out[2] ; 138.223 ; 138.089 ; 138.533 ; 138.399 ;
+; position_rotor3[4] ; signal_out[3] ; 138.706 ; 138.531 ; 139.016 ; 138.841 ;
+; position_rotor3[4] ; signal_out[4] ; 138.530 ; 138.435 ; 138.840 ; 138.745 ;
+; position_rotor3[4] ; signal_out[6] ; 139.351 ; 139.231 ; 139.661 ; 139.541 ;
+; signal_in[0]       ; signal_out[0] ; 193.035 ; 192.860 ; 193.423 ; 193.248 ;
+; signal_in[0]       ; signal_out[1] ; 193.142 ; 193.050 ; 193.530 ; 193.438 ;
+; signal_in[0]       ; signal_out[2] ; 192.382 ; 192.248 ; 192.770 ; 192.636 ;
+; signal_in[0]       ; signal_out[3] ; 192.865 ; 192.690 ; 193.253 ; 193.078 ;
+; signal_in[0]       ; signal_out[4] ; 192.689 ; 192.594 ; 193.077 ; 192.982 ;
+; signal_in[0]       ; signal_out[6] ; 193.510 ; 193.390 ; 193.898 ; 193.778 ;
+; signal_in[1]       ; signal_out[0] ; 192.854 ; 192.679 ; 193.484 ; 193.309 ;
+; signal_in[1]       ; signal_out[1] ; 192.961 ; 192.869 ; 193.591 ; 193.499 ;
+; signal_in[1]       ; signal_out[2] ; 192.201 ; 192.067 ; 192.831 ; 192.697 ;
+; signal_in[1]       ; signal_out[3] ; 192.684 ; 192.509 ; 193.314 ; 193.139 ;
+; signal_in[1]       ; signal_out[4] ; 192.508 ; 192.413 ; 193.138 ; 193.043 ;
+; signal_in[1]       ; signal_out[6] ; 193.329 ; 193.209 ; 193.959 ; 193.839 ;
+; signal_in[2]       ; signal_out[0] ; 192.381 ; 192.206 ; 192.772 ; 192.597 ;
+; signal_in[2]       ; signal_out[1] ; 192.488 ; 192.396 ; 192.879 ; 192.787 ;
+; signal_in[2]       ; signal_out[2] ; 191.728 ; 191.594 ; 192.119 ; 191.985 ;
+; signal_in[2]       ; signal_out[3] ; 192.211 ; 192.036 ; 192.602 ; 192.427 ;
+; signal_in[2]       ; signal_out[4] ; 192.035 ; 191.940 ; 192.426 ; 192.331 ;
+; signal_in[2]       ; signal_out[6] ; 192.856 ; 192.736 ; 193.247 ; 193.127 ;
+; signal_in[3]       ; signal_out[0] ; 192.667 ; 192.492 ; 193.306 ; 193.131 ;
+; signal_in[3]       ; signal_out[1] ; 192.774 ; 192.682 ; 193.413 ; 193.321 ;
+; signal_in[3]       ; signal_out[2] ; 192.014 ; 191.880 ; 192.653 ; 192.519 ;
+; signal_in[3]       ; signal_out[3] ; 192.497 ; 192.322 ; 193.136 ; 192.961 ;
+; signal_in[3]       ; signal_out[4] ; 192.321 ; 192.226 ; 192.960 ; 192.865 ;
+; signal_in[3]       ; signal_out[6] ; 193.142 ; 193.022 ; 193.781 ; 193.661 ;
+; signal_in[4]       ; signal_out[0] ; 192.632 ; 192.457 ; 193.012 ; 192.837 ;
+; signal_in[4]       ; signal_out[1] ; 192.739 ; 192.647 ; 193.119 ; 193.027 ;
+; signal_in[4]       ; signal_out[2] ; 191.979 ; 191.845 ; 192.359 ; 192.225 ;
+; signal_in[4]       ; signal_out[3] ; 192.462 ; 192.287 ; 192.842 ; 192.667 ;
+; signal_in[4]       ; signal_out[4] ; 192.286 ; 192.191 ; 192.666 ; 192.571 ;
+; signal_in[4]       ; signal_out[6] ; 193.107 ; 192.987 ; 193.487 ; 193.367 ;
+; signal_in[5]       ; signal_out[0] ; 192.314 ; 192.139 ; 192.946 ; 192.771 ;
+; signal_in[5]       ; signal_out[1] ; 192.421 ; 192.329 ; 193.053 ; 192.961 ;
+; signal_in[5]       ; signal_out[2] ; 191.661 ; 191.527 ; 192.293 ; 192.159 ;
+; signal_in[5]       ; signal_out[3] ; 192.144 ; 191.969 ; 192.776 ; 192.601 ;
+; signal_in[5]       ; signal_out[4] ; 191.968 ; 191.873 ; 192.600 ; 192.505 ;
+; signal_in[5]       ; signal_out[6] ; 192.789 ; 192.669 ; 193.421 ; 193.301 ;
+; signal_in[6]       ; signal_out[0] ; 192.718 ; 192.543 ; 193.001 ; 192.826 ;
+; signal_in[6]       ; signal_out[1] ; 192.825 ; 192.733 ; 193.108 ; 193.016 ;
+; signal_in[6]       ; signal_out[2] ; 192.065 ; 191.931 ; 192.348 ; 192.214 ;
+; signal_in[6]       ; signal_out[3] ; 192.548 ; 192.373 ; 192.831 ; 192.656 ;
+; signal_in[6]       ; signal_out[4] ; 192.372 ; 192.277 ; 192.655 ; 192.560 ;
+; signal_in[6]       ; signal_out[6] ; 193.193 ; 193.073 ; 193.476 ; 193.356 ;
+; signal_in[7]       ; signal_out[0] ; 192.521 ; 192.346 ; 192.999 ; 192.824 ;
+; signal_in[7]       ; signal_out[1] ; 192.628 ; 192.536 ; 193.106 ; 193.014 ;
+; signal_in[7]       ; signal_out[2] ; 191.868 ; 191.734 ; 192.346 ; 192.212 ;
+; signal_in[7]       ; signal_out[3] ; 192.351 ; 192.176 ; 192.829 ; 192.654 ;
+; signal_in[7]       ; signal_out[4] ; 192.175 ; 192.080 ; 192.653 ; 192.558 ;
+; signal_in[7]       ; signal_out[6] ; 192.996 ; 192.876 ; 193.474 ; 193.354 ;
++--------------------+---------------+---------+---------+---------+---------+
+
+
++------------------------------------------------------------------------+
+; Minimum Propagation Delay                                              ;
++--------------------+---------------+--------+--------+--------+--------+
+; Input Port         ; Output Port   ; RR     ; RF     ; FR     ; FF     ;
++--------------------+---------------+--------+--------+--------+--------+
+; position_rotor1[0] ; signal_out[0] ; 8.709  ; 8.495  ; 9.123  ; 8.981  ;
+; position_rotor1[0] ; signal_out[1] ; 9.258  ; 9.141  ; 9.744  ; 9.623  ;
+; position_rotor1[0] ; signal_out[2] ; 9.176  ; 9.090  ; 9.662  ; 9.546  ;
+; position_rotor1[0] ; signal_out[3] ; 9.294  ; 9.289  ; 9.780  ; 9.703  ;
+; position_rotor1[0] ; signal_out[4] ; 8.713  ; 8.689  ; 9.199  ; 9.103  ;
+; position_rotor1[0] ; signal_out[6] ; 11.059 ; 10.936 ; 11.514 ; 11.391 ;
+; position_rotor1[1] ; signal_out[0] ; 10.130 ; 9.947  ; 10.527 ; 10.343 ;
+; position_rotor1[1] ; signal_out[1] ; 10.415 ; 10.274 ; 10.811 ; 10.670 ;
+; position_rotor1[1] ; signal_out[2] ; 10.064 ; 9.913  ; 10.460 ; 10.309 ;
+; position_rotor1[1] ; signal_out[3] ; 10.411 ; 10.274 ; 10.807 ; 10.670 ;
+; position_rotor1[1] ; signal_out[4] ; 10.040 ; 9.916  ; 10.436 ; 10.312 ;
+; position_rotor1[1] ; signal_out[6] ; 11.273 ; 11.166 ; 11.669 ; 11.562 ;
+; position_rotor1[2] ; signal_out[0] ; 9.869  ; 9.686  ; 10.264 ; 10.080 ;
+; position_rotor1[2] ; signal_out[1] ; 10.154 ; 10.013 ; 10.548 ; 10.407 ;
+; position_rotor1[2] ; signal_out[2] ; 9.803  ; 9.652  ; 10.197 ; 10.046 ;
+; position_rotor1[2] ; signal_out[3] ; 10.150 ; 10.013 ; 10.544 ; 10.407 ;
+; position_rotor1[2] ; signal_out[4] ; 9.779  ; 9.655  ; 10.173 ; 10.049 ;
+; position_rotor1[2] ; signal_out[6] ; 11.012 ; 10.905 ; 11.406 ; 11.299 ;
+; position_rotor1[3] ; signal_out[0] ; 7.492  ; 7.309  ; 7.643  ; 7.459  ;
+; position_rotor1[3] ; signal_out[1] ; 7.777  ; 7.636  ; 7.927  ; 7.786  ;
+; position_rotor1[3] ; signal_out[2] ; 7.426  ; 7.275  ; 7.576  ; 7.425  ;
+; position_rotor1[3] ; signal_out[3] ; 7.773  ; 7.636  ; 7.923  ; 7.786  ;
+; position_rotor1[3] ; signal_out[4] ; 7.402  ; 7.278  ; 7.552  ; 7.428  ;
+; position_rotor1[3] ; signal_out[6] ; 8.635  ; 8.528  ; 8.785  ; 8.678  ;
+; position_rotor1[4] ; signal_out[0] ; 7.523  ; 7.340  ; 7.654  ; 7.470  ;
+; position_rotor1[4] ; signal_out[1] ; 7.808  ; 7.667  ; 7.938  ; 7.797  ;
+; position_rotor1[4] ; signal_out[2] ; 7.457  ; 7.306  ; 7.587  ; 7.436  ;
+; position_rotor1[4] ; signal_out[3] ; 7.804  ; 7.667  ; 7.934  ; 7.797  ;
+; position_rotor1[4] ; signal_out[4] ; 7.433  ; 7.309  ; 7.563  ; 7.439  ;
+; position_rotor1[4] ; signal_out[6] ; 8.666  ; 8.559  ; 8.796  ; 8.689  ;
+; position_rotor2[0] ; signal_out[0] ; 10.119 ; 9.975  ; 10.592 ; 10.444 ;
+; position_rotor2[0] ; signal_out[1] ; 10.502 ; 10.369 ; 10.975 ; 10.838 ;
+; position_rotor2[0] ; signal_out[2] ; 10.047 ; 9.909  ; 10.520 ; 10.378 ;
+; position_rotor2[0] ; signal_out[3] ; 9.869  ; 9.725  ; 10.342 ; 10.194 ;
+; position_rotor2[0] ; signal_out[4] ; 10.127 ; 9.993  ; 10.600 ; 10.462 ;
+; position_rotor2[0] ; signal_out[6] ; 10.871 ; 10.797 ; 11.344 ; 11.266 ;
+; position_rotor2[1] ; signal_out[0] ; 11.233 ; 11.089 ; 11.635 ; 11.491 ;
+; position_rotor2[1] ; signal_out[1] ; 11.616 ; 11.483 ; 12.018 ; 11.885 ;
+; position_rotor2[1] ; signal_out[2] ; 11.161 ; 11.023 ; 11.563 ; 11.425 ;
+; position_rotor2[1] ; signal_out[3] ; 10.983 ; 10.839 ; 11.385 ; 11.241 ;
+; position_rotor2[1] ; signal_out[4] ; 11.241 ; 11.107 ; 11.643 ; 11.509 ;
+; position_rotor2[1] ; signal_out[6] ; 11.985 ; 11.911 ; 12.387 ; 12.313 ;
+; position_rotor2[2] ; signal_out[0] ; 9.677  ; 9.533  ; 9.719  ; 9.575  ;
+; position_rotor2[2] ; signal_out[1] ; 10.060 ; 9.927  ; 10.102 ; 9.969  ;
+; position_rotor2[2] ; signal_out[2] ; 9.605  ; 9.467  ; 9.647  ; 9.509  ;
+; position_rotor2[2] ; signal_out[3] ; 9.427  ; 9.283  ; 9.469  ; 9.325  ;
+; position_rotor2[2] ; signal_out[4] ; 9.685  ; 9.551  ; 9.727  ; 9.593  ;
+; position_rotor2[2] ; signal_out[6] ; 10.429 ; 10.355 ; 10.471 ; 10.397 ;
+; position_rotor2[3] ; signal_out[0] ; 9.664  ; 9.520  ; 9.715  ; 9.571  ;
+; position_rotor2[3] ; signal_out[1] ; 10.047 ; 9.914  ; 10.098 ; 9.965  ;
+; position_rotor2[3] ; signal_out[2] ; 9.592  ; 9.454  ; 9.643  ; 9.505  ;
+; position_rotor2[3] ; signal_out[3] ; 9.414  ; 9.270  ; 9.465  ; 9.321  ;
+; position_rotor2[3] ; signal_out[4] ; 9.672  ; 9.538  ; 9.723  ; 9.589  ;
+; position_rotor2[3] ; signal_out[6] ; 10.416 ; 10.342 ; 10.467 ; 10.393 ;
+; position_rotor2[4] ; signal_out[0] ; 11.154 ; 11.010 ; 11.535 ; 11.391 ;
+; position_rotor2[4] ; signal_out[1] ; 11.537 ; 11.404 ; 11.918 ; 11.785 ;
+; position_rotor2[4] ; signal_out[2] ; 11.082 ; 10.944 ; 11.463 ; 11.325 ;
+; position_rotor2[4] ; signal_out[3] ; 10.904 ; 10.760 ; 11.285 ; 11.141 ;
+; position_rotor2[4] ; signal_out[4] ; 11.162 ; 11.028 ; 11.543 ; 11.409 ;
+; position_rotor2[4] ; signal_out[6] ; 11.906 ; 11.832 ; 12.287 ; 12.213 ;
+; position_rotor3[0] ; signal_out[0] ; 11.837 ; 11.709 ; 12.237 ; 12.167 ;
+; position_rotor3[0] ; signal_out[1] ; 12.220 ; 12.103 ; 12.620 ; 12.561 ;
+; position_rotor3[0] ; signal_out[2] ; 11.765 ; 11.643 ; 12.165 ; 12.101 ;
+; position_rotor3[0] ; signal_out[3] ; 11.587 ; 11.459 ; 11.987 ; 11.917 ;
+; position_rotor3[0] ; signal_out[4] ; 11.845 ; 11.727 ; 12.245 ; 12.185 ;
+; position_rotor3[0] ; signal_out[6] ; 12.589 ; 12.531 ; 12.989 ; 12.989 ;
+; position_rotor3[1] ; signal_out[0] ; 13.087 ; 12.986 ; 13.482 ; 13.381 ;
+; position_rotor3[1] ; signal_out[1] ; 13.470 ; 13.380 ; 13.865 ; 13.775 ;
+; position_rotor3[1] ; signal_out[2] ; 13.015 ; 12.920 ; 13.410 ; 13.315 ;
+; position_rotor3[1] ; signal_out[3] ; 12.837 ; 12.736 ; 13.232 ; 13.131 ;
+; position_rotor3[1] ; signal_out[4] ; 13.095 ; 13.004 ; 13.490 ; 13.399 ;
+; position_rotor3[1] ; signal_out[6] ; 13.839 ; 13.808 ; 14.234 ; 14.203 ;
+; position_rotor3[2] ; signal_out[0] ; 13.184 ; 13.083 ; 13.581 ; 13.480 ;
+; position_rotor3[2] ; signal_out[1] ; 13.567 ; 13.477 ; 13.964 ; 13.874 ;
+; position_rotor3[2] ; signal_out[2] ; 13.112 ; 13.017 ; 13.509 ; 13.414 ;
+; position_rotor3[2] ; signal_out[3] ; 12.934 ; 12.833 ; 13.331 ; 13.230 ;
+; position_rotor3[2] ; signal_out[4] ; 13.192 ; 13.101 ; 13.589 ; 13.498 ;
+; position_rotor3[2] ; signal_out[6] ; 13.936 ; 13.905 ; 14.333 ; 14.302 ;
+; position_rotor3[3] ; signal_out[0] ; 12.967 ; 12.866 ; 13.357 ; 13.256 ;
+; position_rotor3[3] ; signal_out[1] ; 13.350 ; 13.260 ; 13.740 ; 13.650 ;
+; position_rotor3[3] ; signal_out[2] ; 12.895 ; 12.800 ; 13.285 ; 13.190 ;
+; position_rotor3[3] ; signal_out[3] ; 12.717 ; 12.616 ; 13.107 ; 13.006 ;
+; position_rotor3[3] ; signal_out[4] ; 12.975 ; 12.884 ; 13.365 ; 13.274 ;
+; position_rotor3[3] ; signal_out[6] ; 13.719 ; 13.688 ; 14.109 ; 14.078 ;
+; position_rotor3[4] ; signal_out[0] ; 13.211 ; 13.110 ; 13.667 ; 13.566 ;
+; position_rotor3[4] ; signal_out[1] ; 13.594 ; 13.504 ; 14.050 ; 13.960 ;
+; position_rotor3[4] ; signal_out[2] ; 13.139 ; 13.044 ; 13.595 ; 13.500 ;
+; position_rotor3[4] ; signal_out[3] ; 12.961 ; 12.860 ; 13.417 ; 13.316 ;
+; position_rotor3[4] ; signal_out[4] ; 13.219 ; 13.128 ; 13.675 ; 13.584 ;
+; position_rotor3[4] ; signal_out[6] ; 13.963 ; 13.932 ; 14.419 ; 14.388 ;
+; signal_in[0]       ; signal_out[0] ; 16.714 ; 16.694 ; 17.228 ; 17.199 ;
+; signal_in[0]       ; signal_out[1] ; 17.097 ; 17.088 ; 17.611 ; 17.593 ;
+; signal_in[0]       ; signal_out[2] ; 16.642 ; 16.628 ; 17.156 ; 17.133 ;
+; signal_in[0]       ; signal_out[3] ; 16.464 ; 16.444 ; 16.978 ; 16.949 ;
+; signal_in[0]       ; signal_out[4] ; 16.722 ; 16.712 ; 17.236 ; 17.217 ;
+; signal_in[0]       ; signal_out[6] ; 17.466 ; 17.516 ; 17.980 ; 18.021 ;
+; signal_in[1]       ; signal_out[0] ; 16.434 ; 16.414 ; 16.945 ; 16.916 ;
+; signal_in[1]       ; signal_out[1] ; 16.817 ; 16.808 ; 17.328 ; 17.310 ;
+; signal_in[1]       ; signal_out[2] ; 16.362 ; 16.348 ; 16.873 ; 16.850 ;
+; signal_in[1]       ; signal_out[3] ; 16.184 ; 16.164 ; 16.695 ; 16.666 ;
+; signal_in[1]       ; signal_out[4] ; 16.442 ; 16.432 ; 16.953 ; 16.934 ;
+; signal_in[1]       ; signal_out[6] ; 17.186 ; 17.236 ; 17.697 ; 17.738 ;
+; signal_in[2]       ; signal_out[0] ; 16.062 ; 16.042 ; 16.577 ; 16.548 ;
+; signal_in[2]       ; signal_out[1] ; 16.445 ; 16.436 ; 16.960 ; 16.942 ;
+; signal_in[2]       ; signal_out[2] ; 15.990 ; 15.976 ; 16.505 ; 16.482 ;
+; signal_in[2]       ; signal_out[3] ; 15.812 ; 15.792 ; 16.327 ; 16.298 ;
+; signal_in[2]       ; signal_out[4] ; 16.070 ; 16.060 ; 16.585 ; 16.566 ;
+; signal_in[2]       ; signal_out[6] ; 16.814 ; 16.864 ; 17.329 ; 17.370 ;
+; signal_in[3]       ; signal_out[0] ; 16.614 ; 16.594 ; 17.146 ; 17.117 ;
+; signal_in[3]       ; signal_out[1] ; 16.997 ; 16.988 ; 17.529 ; 17.511 ;
+; signal_in[3]       ; signal_out[2] ; 16.542 ; 16.528 ; 17.074 ; 17.051 ;
+; signal_in[3]       ; signal_out[3] ; 16.364 ; 16.344 ; 16.896 ; 16.867 ;
+; signal_in[3]       ; signal_out[4] ; 16.622 ; 16.612 ; 17.154 ; 17.135 ;
+; signal_in[3]       ; signal_out[6] ; 17.366 ; 17.416 ; 17.898 ; 17.939 ;
+; signal_in[4]       ; signal_out[0] ; 16.510 ; 16.490 ; 17.021 ; 16.992 ;
+; signal_in[4]       ; signal_out[1] ; 16.893 ; 16.884 ; 17.404 ; 17.386 ;
+; signal_in[4]       ; signal_out[2] ; 16.438 ; 16.424 ; 16.949 ; 16.926 ;
+; signal_in[4]       ; signal_out[3] ; 16.260 ; 16.240 ; 16.771 ; 16.742 ;
+; signal_in[4]       ; signal_out[4] ; 16.518 ; 16.508 ; 17.029 ; 17.010 ;
+; signal_in[4]       ; signal_out[6] ; 17.262 ; 17.312 ; 17.773 ; 17.814 ;
+; signal_in[5]       ; signal_out[0] ; 16.506 ; 16.486 ; 17.022 ; 16.993 ;
+; signal_in[5]       ; signal_out[1] ; 16.889 ; 16.880 ; 17.405 ; 17.387 ;
+; signal_in[5]       ; signal_out[2] ; 16.434 ; 16.420 ; 16.950 ; 16.927 ;
+; signal_in[5]       ; signal_out[3] ; 16.256 ; 16.236 ; 16.772 ; 16.743 ;
+; signal_in[5]       ; signal_out[4] ; 16.514 ; 16.504 ; 17.030 ; 17.011 ;
+; signal_in[5]       ; signal_out[6] ; 17.258 ; 17.308 ; 17.774 ; 17.815 ;
+; signal_in[6]       ; signal_out[0] ; 16.609 ; 16.589 ; 17.117 ; 17.088 ;
+; signal_in[6]       ; signal_out[1] ; 16.992 ; 16.983 ; 17.500 ; 17.482 ;
+; signal_in[6]       ; signal_out[2] ; 16.537 ; 16.523 ; 17.045 ; 17.022 ;
+; signal_in[6]       ; signal_out[3] ; 16.359 ; 16.339 ; 16.867 ; 16.838 ;
+; signal_in[6]       ; signal_out[4] ; 16.617 ; 16.607 ; 17.125 ; 17.106 ;
+; signal_in[6]       ; signal_out[6] ; 17.361 ; 17.411 ; 17.869 ; 17.910 ;
+; signal_in[7]       ; signal_out[0] ; 16.862 ; 16.842 ; 17.375 ; 17.346 ;
+; signal_in[7]       ; signal_out[1] ; 17.245 ; 17.236 ; 17.758 ; 17.740 ;
+; signal_in[7]       ; signal_out[2] ; 16.790 ; 16.776 ; 17.303 ; 17.280 ;
+; signal_in[7]       ; signal_out[3] ; 16.612 ; 16.592 ; 17.125 ; 17.096 ;
+; signal_in[7]       ; signal_out[4] ; 16.870 ; 16.860 ; 17.383 ; 17.364 ;
+; signal_in[7]       ; signal_out[6] ; 17.614 ; 17.664 ; 18.127 ; 18.168 ;
++--------------------+---------------+--------+--------+--------+--------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------------+
+; Propagation Delay                                                          ;
++--------------------+---------------+---------+---------+---------+---------+
+; Input Port         ; Output Port   ; RR      ; RF      ; FR      ; FF      ;
++--------------------+---------------+---------+---------+---------+---------+
+; position_rotor1[0] ; signal_out[0] ; 172.107 ; 171.906 ; 172.400 ; 172.199 ;
+; position_rotor1[0] ; signal_out[1] ; 172.222 ; 172.067 ; 172.515 ; 172.360 ;
+; position_rotor1[0] ; signal_out[2] ; 171.519 ; 171.359 ; 171.812 ; 171.652 ;
+; position_rotor1[0] ; signal_out[3] ; 171.953 ; 171.749 ; 172.246 ; 172.042 ;
+; position_rotor1[0] ; signal_out[4] ; 171.803 ; 171.685 ; 172.096 ; 171.978 ;
+; position_rotor1[0] ; signal_out[6] ; 172.485 ; 172.355 ; 172.778 ; 172.648 ;
+; position_rotor1[1] ; signal_out[0] ; 171.910 ; 171.709 ; 172.390 ; 172.189 ;
+; position_rotor1[1] ; signal_out[1] ; 172.025 ; 171.870 ; 172.505 ; 172.350 ;
+; position_rotor1[1] ; signal_out[2] ; 171.322 ; 171.162 ; 171.802 ; 171.642 ;
+; position_rotor1[1] ; signal_out[3] ; 171.756 ; 171.552 ; 172.236 ; 172.032 ;
+; position_rotor1[1] ; signal_out[4] ; 171.606 ; 171.488 ; 172.086 ; 171.968 ;
+; position_rotor1[1] ; signal_out[6] ; 172.288 ; 172.158 ; 172.768 ; 172.638 ;
+; position_rotor1[2] ; signal_out[0] ; 171.969 ; 171.768 ; 172.258 ; 172.057 ;
+; position_rotor1[2] ; signal_out[1] ; 172.084 ; 171.929 ; 172.373 ; 172.218 ;
+; position_rotor1[2] ; signal_out[2] ; 171.381 ; 171.221 ; 171.670 ; 171.510 ;
+; position_rotor1[2] ; signal_out[3] ; 171.815 ; 171.611 ; 172.104 ; 171.900 ;
+; position_rotor1[2] ; signal_out[4] ; 171.665 ; 171.547 ; 171.954 ; 171.836 ;
+; position_rotor1[2] ; signal_out[6] ; 172.347 ; 172.217 ; 172.636 ; 172.506 ;
+; position_rotor1[3] ; signal_out[0] ; 169.958 ; 169.757 ; 170.274 ; 170.073 ;
+; position_rotor1[3] ; signal_out[1] ; 170.073 ; 169.918 ; 170.389 ; 170.234 ;
+; position_rotor1[3] ; signal_out[2] ; 169.370 ; 169.210 ; 169.686 ; 169.526 ;
+; position_rotor1[3] ; signal_out[3] ; 169.804 ; 169.600 ; 170.120 ; 169.916 ;
+; position_rotor1[3] ; signal_out[4] ; 169.654 ; 169.536 ; 169.970 ; 169.852 ;
+; position_rotor1[3] ; signal_out[6] ; 170.336 ; 170.206 ; 170.652 ; 170.522 ;
+; position_rotor1[4] ; signal_out[0] ; 169.965 ; 169.764 ; 170.095 ; 169.894 ;
+; position_rotor1[4] ; signal_out[1] ; 170.080 ; 169.925 ; 170.210 ; 170.055 ;
+; position_rotor1[4] ; signal_out[2] ; 169.377 ; 169.217 ; 169.507 ; 169.347 ;
+; position_rotor1[4] ; signal_out[3] ; 169.811 ; 169.607 ; 169.941 ; 169.737 ;
+; position_rotor1[4] ; signal_out[4] ; 169.661 ; 169.543 ; 169.791 ; 169.673 ;
+; position_rotor1[4] ; signal_out[6] ; 170.343 ; 170.213 ; 170.473 ; 170.343 ;
+; position_rotor2[0] ; signal_out[0] ; 147.545 ; 147.344 ; 147.893 ; 147.692 ;
+; position_rotor2[0] ; signal_out[1] ; 147.660 ; 147.505 ; 148.008 ; 147.853 ;
+; position_rotor2[0] ; signal_out[2] ; 146.957 ; 146.797 ; 147.305 ; 147.145 ;
+; position_rotor2[0] ; signal_out[3] ; 147.391 ; 147.187 ; 147.739 ; 147.535 ;
+; position_rotor2[0] ; signal_out[4] ; 147.241 ; 147.123 ; 147.589 ; 147.471 ;
+; position_rotor2[0] ; signal_out[6] ; 147.923 ; 147.793 ; 148.271 ; 148.141 ;
+; position_rotor2[1] ; signal_out[0] ; 147.429 ; 147.228 ; 147.968 ; 147.767 ;
+; position_rotor2[1] ; signal_out[1] ; 147.544 ; 147.389 ; 148.083 ; 147.928 ;
+; position_rotor2[1] ; signal_out[2] ; 146.841 ; 146.681 ; 147.380 ; 147.220 ;
+; position_rotor2[1] ; signal_out[3] ; 147.275 ; 147.071 ; 147.814 ; 147.610 ;
+; position_rotor2[1] ; signal_out[4] ; 147.125 ; 147.007 ; 147.664 ; 147.546 ;
+; position_rotor2[1] ; signal_out[6] ; 147.807 ; 147.677 ; 148.346 ; 148.216 ;
+; position_rotor2[2] ; signal_out[0] ; 145.728 ; 145.527 ; 145.869 ; 145.668 ;
+; position_rotor2[2] ; signal_out[1] ; 145.843 ; 145.688 ; 145.984 ; 145.829 ;
+; position_rotor2[2] ; signal_out[2] ; 145.140 ; 144.980 ; 145.281 ; 145.121 ;
+; position_rotor2[2] ; signal_out[3] ; 145.574 ; 145.370 ; 145.715 ; 145.511 ;
+; position_rotor2[2] ; signal_out[4] ; 145.424 ; 145.306 ; 145.565 ; 145.447 ;
+; position_rotor2[2] ; signal_out[6] ; 146.106 ; 145.976 ; 146.247 ; 146.117 ;
+; position_rotor2[3] ; signal_out[0] ; 145.528 ; 145.327 ; 145.830 ; 145.629 ;
+; position_rotor2[3] ; signal_out[1] ; 145.643 ; 145.488 ; 145.945 ; 145.790 ;
+; position_rotor2[3] ; signal_out[2] ; 144.940 ; 144.780 ; 145.242 ; 145.082 ;
+; position_rotor2[3] ; signal_out[3] ; 145.374 ; 145.170 ; 145.676 ; 145.472 ;
+; position_rotor2[3] ; signal_out[4] ; 145.224 ; 145.106 ; 145.526 ; 145.408 ;
+; position_rotor2[3] ; signal_out[6] ; 145.906 ; 145.776 ; 146.208 ; 146.078 ;
+; position_rotor2[4] ; signal_out[0] ; 146.977 ; 146.776 ; 147.125 ; 146.924 ;
+; position_rotor2[4] ; signal_out[1] ; 147.092 ; 146.937 ; 147.240 ; 147.085 ;
+; position_rotor2[4] ; signal_out[2] ; 146.389 ; 146.229 ; 146.537 ; 146.377 ;
+; position_rotor2[4] ; signal_out[3] ; 146.823 ; 146.619 ; 146.971 ; 146.767 ;
+; position_rotor2[4] ; signal_out[4] ; 146.673 ; 146.555 ; 146.821 ; 146.703 ;
+; position_rotor2[4] ; signal_out[6] ; 147.355 ; 147.225 ; 147.503 ; 147.373 ;
+; position_rotor3[0] ; signal_out[0] ; 124.287 ; 124.086 ; 124.616 ; 124.415 ;
+; position_rotor3[0] ; signal_out[1] ; 124.402 ; 124.247 ; 124.731 ; 124.576 ;
+; position_rotor3[0] ; signal_out[2] ; 123.699 ; 123.539 ; 124.028 ; 123.868 ;
+; position_rotor3[0] ; signal_out[3] ; 124.133 ; 123.929 ; 124.462 ; 124.258 ;
+; position_rotor3[0] ; signal_out[4] ; 123.983 ; 123.865 ; 124.312 ; 124.194 ;
+; position_rotor3[0] ; signal_out[6] ; 124.665 ; 124.535 ; 124.994 ; 124.864 ;
+; position_rotor3[1] ; signal_out[0] ; 124.289 ; 124.088 ; 124.842 ; 124.641 ;
+; position_rotor3[1] ; signal_out[1] ; 124.404 ; 124.249 ; 124.957 ; 124.802 ;
+; position_rotor3[1] ; signal_out[2] ; 123.701 ; 123.541 ; 124.254 ; 124.094 ;
+; position_rotor3[1] ; signal_out[3] ; 124.135 ; 123.931 ; 124.688 ; 124.484 ;
+; position_rotor3[1] ; signal_out[4] ; 123.985 ; 123.867 ; 124.538 ; 124.420 ;
+; position_rotor3[1] ; signal_out[6] ; 124.667 ; 124.537 ; 125.220 ; 125.090 ;
+; position_rotor3[2] ; signal_out[0] ; 124.114 ; 123.913 ; 124.442 ; 124.241 ;
+; position_rotor3[2] ; signal_out[1] ; 124.229 ; 124.074 ; 124.557 ; 124.402 ;
+; position_rotor3[2] ; signal_out[2] ; 123.526 ; 123.366 ; 123.854 ; 123.694 ;
+; position_rotor3[2] ; signal_out[3] ; 123.960 ; 123.756 ; 124.288 ; 124.084 ;
+; position_rotor3[2] ; signal_out[4] ; 123.810 ; 123.692 ; 124.138 ; 124.020 ;
+; position_rotor3[2] ; signal_out[6] ; 124.492 ; 124.362 ; 124.820 ; 124.690 ;
+; position_rotor3[3] ; signal_out[0] ; 124.435 ; 124.234 ; 124.935 ; 124.734 ;
+; position_rotor3[3] ; signal_out[1] ; 124.550 ; 124.395 ; 125.050 ; 124.895 ;
+; position_rotor3[3] ; signal_out[2] ; 123.847 ; 123.687 ; 124.347 ; 124.187 ;
+; position_rotor3[3] ; signal_out[3] ; 124.281 ; 124.077 ; 124.781 ; 124.577 ;
+; position_rotor3[3] ; signal_out[4] ; 124.131 ; 124.013 ; 124.631 ; 124.513 ;
+; position_rotor3[3] ; signal_out[6] ; 124.813 ; 124.683 ; 125.313 ; 125.183 ;
+; position_rotor3[4] ; signal_out[0] ; 123.837 ; 123.636 ; 124.047 ; 123.846 ;
+; position_rotor3[4] ; signal_out[1] ; 123.952 ; 123.797 ; 124.162 ; 124.007 ;
+; position_rotor3[4] ; signal_out[2] ; 123.249 ; 123.089 ; 123.459 ; 123.299 ;
+; position_rotor3[4] ; signal_out[3] ; 123.683 ; 123.479 ; 123.893 ; 123.689 ;
+; position_rotor3[4] ; signal_out[4] ; 123.533 ; 123.415 ; 123.743 ; 123.625 ;
+; position_rotor3[4] ; signal_out[6] ; 124.215 ; 124.085 ; 124.425 ; 124.295 ;
+; signal_in[0]       ; signal_out[0] ; 172.182 ; 171.981 ; 172.462 ; 172.261 ;
+; signal_in[0]       ; signal_out[1] ; 172.297 ; 172.142 ; 172.577 ; 172.422 ;
+; signal_in[0]       ; signal_out[2] ; 171.594 ; 171.434 ; 171.874 ; 171.714 ;
+; signal_in[0]       ; signal_out[3] ; 172.028 ; 171.824 ; 172.308 ; 172.104 ;
+; signal_in[0]       ; signal_out[4] ; 171.878 ; 171.760 ; 172.158 ; 172.040 ;
+; signal_in[0]       ; signal_out[6] ; 172.560 ; 172.430 ; 172.840 ; 172.710 ;
+; signal_in[1]       ; signal_out[0] ; 172.046 ; 171.845 ; 172.504 ; 172.303 ;
+; signal_in[1]       ; signal_out[1] ; 172.161 ; 172.006 ; 172.619 ; 172.464 ;
+; signal_in[1]       ; signal_out[2] ; 171.458 ; 171.298 ; 171.916 ; 171.756 ;
+; signal_in[1]       ; signal_out[3] ; 171.892 ; 171.688 ; 172.350 ; 172.146 ;
+; signal_in[1]       ; signal_out[4] ; 171.742 ; 171.624 ; 172.200 ; 172.082 ;
+; signal_in[1]       ; signal_out[6] ; 172.424 ; 172.294 ; 172.882 ; 172.752 ;
+; signal_in[2]       ; signal_out[0] ; 171.595 ; 171.394 ; 171.883 ; 171.682 ;
+; signal_in[2]       ; signal_out[1] ; 171.710 ; 171.555 ; 171.998 ; 171.843 ;
+; signal_in[2]       ; signal_out[2] ; 171.007 ; 170.847 ; 171.295 ; 171.135 ;
+; signal_in[2]       ; signal_out[3] ; 171.441 ; 171.237 ; 171.729 ; 171.525 ;
+; signal_in[2]       ; signal_out[4] ; 171.291 ; 171.173 ; 171.579 ; 171.461 ;
+; signal_in[2]       ; signal_out[6] ; 171.973 ; 171.843 ; 172.261 ; 172.131 ;
+; signal_in[3]       ; signal_out[0] ; 171.868 ; 171.667 ; 172.360 ; 172.159 ;
+; signal_in[3]       ; signal_out[1] ; 171.983 ; 171.828 ; 172.475 ; 172.320 ;
+; signal_in[3]       ; signal_out[2] ; 171.280 ; 171.120 ; 171.772 ; 171.612 ;
+; signal_in[3]       ; signal_out[3] ; 171.714 ; 171.510 ; 172.206 ; 172.002 ;
+; signal_in[3]       ; signal_out[4] ; 171.564 ; 171.446 ; 172.056 ; 171.938 ;
+; signal_in[3]       ; signal_out[6] ; 172.246 ; 172.116 ; 172.738 ; 172.608 ;
+; signal_in[4]       ; signal_out[0] ; 171.830 ; 171.629 ; 172.103 ; 171.902 ;
+; signal_in[4]       ; signal_out[1] ; 171.945 ; 171.790 ; 172.218 ; 172.063 ;
+; signal_in[4]       ; signal_out[2] ; 171.242 ; 171.082 ; 171.515 ; 171.355 ;
+; signal_in[4]       ; signal_out[3] ; 171.676 ; 171.472 ; 171.949 ; 171.745 ;
+; signal_in[4]       ; signal_out[4] ; 171.526 ; 171.408 ; 171.799 ; 171.681 ;
+; signal_in[4]       ; signal_out[6] ; 172.208 ; 172.078 ; 172.481 ; 172.351 ;
+; signal_in[5]       ; signal_out[0] ; 171.556 ; 171.355 ; 172.036 ; 171.835 ;
+; signal_in[5]       ; signal_out[1] ; 171.671 ; 171.516 ; 172.151 ; 171.996 ;
+; signal_in[5]       ; signal_out[2] ; 170.968 ; 170.808 ; 171.448 ; 171.288 ;
+; signal_in[5]       ; signal_out[3] ; 171.402 ; 171.198 ; 171.882 ; 171.678 ;
+; signal_in[5]       ; signal_out[4] ; 171.252 ; 171.134 ; 171.732 ; 171.614 ;
+; signal_in[5]       ; signal_out[6] ; 171.934 ; 171.804 ; 172.414 ; 172.284 ;
+; signal_in[6]       ; signal_out[0] ; 171.920 ; 171.719 ; 172.131 ; 171.930 ;
+; signal_in[6]       ; signal_out[1] ; 172.035 ; 171.880 ; 172.246 ; 172.091 ;
+; signal_in[6]       ; signal_out[2] ; 171.332 ; 171.172 ; 171.543 ; 171.383 ;
+; signal_in[6]       ; signal_out[3] ; 171.766 ; 171.562 ; 171.977 ; 171.773 ;
+; signal_in[6]       ; signal_out[4] ; 171.616 ; 171.498 ; 171.827 ; 171.709 ;
+; signal_in[6]       ; signal_out[6] ; 172.298 ; 172.168 ; 172.509 ; 172.379 ;
+; signal_in[7]       ; signal_out[0] ; 171.706 ; 171.505 ; 172.136 ; 171.935 ;
+; signal_in[7]       ; signal_out[1] ; 171.821 ; 171.666 ; 172.251 ; 172.096 ;
+; signal_in[7]       ; signal_out[2] ; 171.118 ; 170.958 ; 171.548 ; 171.388 ;
+; signal_in[7]       ; signal_out[3] ; 171.552 ; 171.348 ; 171.982 ; 171.778 ;
+; signal_in[7]       ; signal_out[4] ; 171.402 ; 171.284 ; 171.832 ; 171.714 ;
+; signal_in[7]       ; signal_out[6] ; 172.084 ; 171.954 ; 172.514 ; 172.384 ;
++--------------------+---------------+---------+---------+---------+---------+
+
+
++------------------------------------------------------------------------+
+; Minimum Propagation Delay                                              ;
++--------------------+---------------+--------+--------+--------+--------+
+; Input Port         ; Output Port   ; RR     ; RF     ; FR     ; FF     ;
++--------------------+---------------+--------+--------+--------+--------+
+; position_rotor1[0] ; signal_out[0] ; 7.727  ; 7.553  ; 8.049  ; 7.935  ;
+; position_rotor1[0] ; signal_out[1] ; 8.290  ; 8.134  ; 8.622  ; 8.460  ;
+; position_rotor1[0] ; signal_out[2] ; 8.210  ; 8.064  ; 8.567  ; 8.386  ;
+; position_rotor1[0] ; signal_out[3] ; 8.315  ; 8.196  ; 8.697  ; 8.518  ;
+; position_rotor1[0] ; signal_out[4] ; 7.788  ; 7.673  ; 8.170  ; 7.995  ;
+; position_rotor1[0] ; signal_out[6] ; 9.826  ; 9.730  ; 10.149 ; 10.053 ;
+; position_rotor1[1] ; signal_out[0] ; 8.973  ; 8.823  ; 9.298  ; 9.142  ;
+; position_rotor1[1] ; signal_out[1] ; 9.263  ; 9.085  ; 9.588  ; 9.410  ;
+; position_rotor1[1] ; signal_out[2] ; 8.915  ; 8.775  ; 9.240  ; 9.100  ;
+; position_rotor1[1] ; signal_out[3] ; 9.250  ; 9.092  ; 9.575  ; 9.417  ;
+; position_rotor1[1] ; signal_out[4] ; 8.921  ; 8.769  ; 9.246  ; 9.094  ;
+; position_rotor1[1] ; signal_out[6] ; 9.946  ; 9.869  ; 10.271 ; 10.194 ;
+; position_rotor1[2] ; signal_out[0] ; 8.746  ; 8.596  ; 9.066  ; 8.910  ;
+; position_rotor1[2] ; signal_out[1] ; 9.036  ; 8.858  ; 9.356  ; 9.178  ;
+; position_rotor1[2] ; signal_out[2] ; 8.688  ; 8.548  ; 9.008  ; 8.868  ;
+; position_rotor1[2] ; signal_out[3] ; 9.023  ; 8.865  ; 9.343  ; 9.185  ;
+; position_rotor1[2] ; signal_out[4] ; 8.694  ; 8.542  ; 9.014  ; 8.862  ;
+; position_rotor1[2] ; signal_out[6] ; 9.719  ; 9.642  ; 10.039 ; 9.962  ;
+; position_rotor1[3] ; signal_out[0] ; 6.698  ; 6.548  ; 6.865  ; 6.709  ;
+; position_rotor1[3] ; signal_out[1] ; 6.988  ; 6.810  ; 7.155  ; 6.977  ;
+; position_rotor1[3] ; signal_out[2] ; 6.640  ; 6.500  ; 6.807  ; 6.667  ;
+; position_rotor1[3] ; signal_out[3] ; 6.975  ; 6.817  ; 7.142  ; 6.984  ;
+; position_rotor1[3] ; signal_out[4] ; 6.646  ; 6.494  ; 6.813  ; 6.661  ;
+; position_rotor1[3] ; signal_out[6] ; 7.671  ; 7.594  ; 7.838  ; 7.761  ;
+; position_rotor1[4] ; signal_out[0] ; 6.728  ; 6.578  ; 6.881  ; 6.725  ;
+; position_rotor1[4] ; signal_out[1] ; 7.018  ; 6.840  ; 7.171  ; 6.993  ;
+; position_rotor1[4] ; signal_out[2] ; 6.670  ; 6.530  ; 6.823  ; 6.683  ;
+; position_rotor1[4] ; signal_out[3] ; 7.005  ; 6.847  ; 7.158  ; 7.000  ;
+; position_rotor1[4] ; signal_out[4] ; 6.676  ; 6.524  ; 6.829  ; 6.677  ;
+; position_rotor1[4] ; signal_out[6] ; 7.701  ; 7.624  ; 7.854  ; 7.777  ;
+; position_rotor2[0] ; signal_out[0] ; 9.068  ; 8.857  ; 9.406  ; 9.189  ;
+; position_rotor2[0] ; signal_out[1] ; 9.415  ; 9.209  ; 9.753  ; 9.541  ;
+; position_rotor2[0] ; signal_out[2] ; 9.001  ; 8.806  ; 9.339  ; 9.138  ;
+; position_rotor2[0] ; signal_out[3] ; 8.848  ; 8.635  ; 9.186  ; 8.967  ;
+; position_rotor2[0] ; signal_out[4] ; 9.074  ; 8.876  ; 9.412  ; 9.208  ;
+; position_rotor2[0] ; signal_out[6] ; 9.688  ; 9.566  ; 10.026 ; 9.898  ;
+; position_rotor2[1] ; signal_out[0] ; 10.015 ; 9.804  ; 10.353 ; 10.142 ;
+; position_rotor2[1] ; signal_out[1] ; 10.362 ; 10.156 ; 10.700 ; 10.494 ;
+; position_rotor2[1] ; signal_out[2] ; 9.948  ; 9.753  ; 10.286 ; 10.091 ;
+; position_rotor2[1] ; signal_out[3] ; 9.795  ; 9.582  ; 10.133 ; 9.920  ;
+; position_rotor2[1] ; signal_out[4] ; 10.021 ; 9.823  ; 10.359 ; 10.161 ;
+; position_rotor2[1] ; signal_out[6] ; 10.635 ; 10.513 ; 10.973 ; 10.851 ;
+; position_rotor2[2] ; signal_out[0] ; 8.702  ; 8.491  ; 8.805  ; 8.594  ;
+; position_rotor2[2] ; signal_out[1] ; 9.049  ; 8.843  ; 9.152  ; 8.946  ;
+; position_rotor2[2] ; signal_out[2] ; 8.635  ; 8.440  ; 8.738  ; 8.543  ;
+; position_rotor2[2] ; signal_out[3] ; 8.482  ; 8.269  ; 8.585  ; 8.372  ;
+; position_rotor2[2] ; signal_out[4] ; 8.708  ; 8.510  ; 8.811  ; 8.613  ;
+; position_rotor2[2] ; signal_out[6] ; 9.322  ; 9.200  ; 9.425  ; 9.303  ;
+; position_rotor2[3] ; signal_out[0] ; 8.702  ; 8.491  ; 8.798  ; 8.587  ;
+; position_rotor2[3] ; signal_out[1] ; 9.049  ; 8.843  ; 9.145  ; 8.939  ;
+; position_rotor2[3] ; signal_out[2] ; 8.635  ; 8.440  ; 8.731  ; 8.536  ;
+; position_rotor2[3] ; signal_out[3] ; 8.482  ; 8.269  ; 8.578  ; 8.365  ;
+; position_rotor2[3] ; signal_out[4] ; 8.708  ; 8.510  ; 8.804  ; 8.606  ;
+; position_rotor2[3] ; signal_out[6] ; 9.322  ; 9.200  ; 9.418  ; 9.296  ;
+; position_rotor2[4] ; signal_out[0] ; 9.951  ; 9.740  ; 10.263 ; 10.052 ;
+; position_rotor2[4] ; signal_out[1] ; 10.298 ; 10.092 ; 10.610 ; 10.404 ;
+; position_rotor2[4] ; signal_out[2] ; 9.884  ; 9.689  ; 10.196 ; 10.001 ;
+; position_rotor2[4] ; signal_out[3] ; 9.731  ; 9.518  ; 10.043 ; 9.830  ;
+; position_rotor2[4] ; signal_out[4] ; 9.957  ; 9.759  ; 10.269 ; 10.071 ;
+; position_rotor2[4] ; signal_out[6] ; 10.571 ; 10.449 ; 10.883 ; 10.761 ;
+; position_rotor3[0] ; signal_out[0] ; 10.566 ; 10.430 ; 10.880 ; 10.793 ;
+; position_rotor3[0] ; signal_out[1] ; 10.913 ; 10.782 ; 11.227 ; 11.145 ;
+; position_rotor3[0] ; signal_out[2] ; 10.499 ; 10.379 ; 10.813 ; 10.742 ;
+; position_rotor3[0] ; signal_out[3] ; 10.346 ; 10.208 ; 10.660 ; 10.571 ;
+; position_rotor3[0] ; signal_out[4] ; 10.572 ; 10.449 ; 10.886 ; 10.812 ;
+; position_rotor3[0] ; signal_out[6] ; 11.186 ; 11.139 ; 11.500 ; 11.502 ;
+; position_rotor3[1] ; signal_out[0] ; 11.755 ; 11.531 ; 12.079 ; 11.855 ;
+; position_rotor3[1] ; signal_out[1] ; 12.102 ; 11.883 ; 12.426 ; 12.207 ;
+; position_rotor3[1] ; signal_out[2] ; 11.688 ; 11.480 ; 12.012 ; 11.804 ;
+; position_rotor3[1] ; signal_out[3] ; 11.535 ; 11.309 ; 11.859 ; 11.633 ;
+; position_rotor3[1] ; signal_out[4] ; 11.761 ; 11.550 ; 12.085 ; 11.874 ;
+; position_rotor3[1] ; signal_out[6] ; 12.375 ; 12.240 ; 12.699 ; 12.564 ;
+; position_rotor3[2] ; signal_out[0] ; 11.847 ; 11.623 ; 12.156 ; 11.932 ;
+; position_rotor3[2] ; signal_out[1] ; 12.194 ; 11.975 ; 12.503 ; 12.284 ;
+; position_rotor3[2] ; signal_out[2] ; 11.780 ; 11.572 ; 12.089 ; 11.881 ;
+; position_rotor3[2] ; signal_out[3] ; 11.627 ; 11.401 ; 11.936 ; 11.710 ;
+; position_rotor3[2] ; signal_out[4] ; 11.853 ; 11.642 ; 12.162 ; 11.951 ;
+; position_rotor3[2] ; signal_out[6] ; 12.467 ; 12.332 ; 12.776 ; 12.641 ;
+; position_rotor3[3] ; signal_out[0] ; 11.651 ; 11.427 ; 11.967 ; 11.743 ;
+; position_rotor3[3] ; signal_out[1] ; 11.998 ; 11.779 ; 12.314 ; 12.095 ;
+; position_rotor3[3] ; signal_out[2] ; 11.584 ; 11.376 ; 11.900 ; 11.692 ;
+; position_rotor3[3] ; signal_out[3] ; 11.431 ; 11.205 ; 11.747 ; 11.521 ;
+; position_rotor3[3] ; signal_out[4] ; 11.657 ; 11.446 ; 11.973 ; 11.762 ;
+; position_rotor3[3] ; signal_out[6] ; 12.271 ; 12.136 ; 12.587 ; 12.452 ;
+; position_rotor3[4] ; signal_out[0] ; 11.881 ; 11.657 ; 12.246 ; 12.022 ;
+; position_rotor3[4] ; signal_out[1] ; 12.228 ; 12.009 ; 12.593 ; 12.374 ;
+; position_rotor3[4] ; signal_out[2] ; 11.814 ; 11.606 ; 12.179 ; 11.971 ;
+; position_rotor3[4] ; signal_out[3] ; 11.661 ; 11.435 ; 12.026 ; 11.800 ;
+; position_rotor3[4] ; signal_out[4] ; 11.887 ; 11.676 ; 12.252 ; 12.041 ;
+; position_rotor3[4] ; signal_out[6] ; 12.501 ; 12.366 ; 12.866 ; 12.731 ;
+; signal_in[0]       ; signal_out[0] ; 15.134 ; 14.940 ; 15.398 ; 15.198 ;
+; signal_in[0]       ; signal_out[1] ; 15.481 ; 15.292 ; 15.745 ; 15.550 ;
+; signal_in[0]       ; signal_out[2] ; 15.067 ; 14.889 ; 15.331 ; 15.147 ;
+; signal_in[0]       ; signal_out[3] ; 14.914 ; 14.718 ; 15.178 ; 14.976 ;
+; signal_in[0]       ; signal_out[4] ; 15.140 ; 14.959 ; 15.404 ; 15.217 ;
+; signal_in[0]       ; signal_out[6] ; 15.754 ; 15.649 ; 16.018 ; 15.907 ;
+; signal_in[1]       ; signal_out[0] ; 14.900 ; 14.706 ; 15.145 ; 14.945 ;
+; signal_in[1]       ; signal_out[1] ; 15.247 ; 15.058 ; 15.492 ; 15.297 ;
+; signal_in[1]       ; signal_out[2] ; 14.833 ; 14.655 ; 15.078 ; 14.894 ;
+; signal_in[1]       ; signal_out[3] ; 14.680 ; 14.484 ; 14.925 ; 14.723 ;
+; signal_in[1]       ; signal_out[4] ; 14.906 ; 14.725 ; 15.151 ; 14.964 ;
+; signal_in[1]       ; signal_out[6] ; 15.520 ; 15.415 ; 15.765 ; 15.654 ;
+; signal_in[2]       ; signal_out[0] ; 14.546 ; 14.352 ; 14.821 ; 14.621 ;
+; signal_in[2]       ; signal_out[1] ; 14.893 ; 14.704 ; 15.168 ; 14.973 ;
+; signal_in[2]       ; signal_out[2] ; 14.479 ; 14.301 ; 14.754 ; 14.570 ;
+; signal_in[2]       ; signal_out[3] ; 14.326 ; 14.130 ; 14.601 ; 14.399 ;
+; signal_in[2]       ; signal_out[4] ; 14.552 ; 14.371 ; 14.827 ; 14.640 ;
+; signal_in[2]       ; signal_out[6] ; 15.166 ; 15.061 ; 15.441 ; 15.330 ;
+; signal_in[3]       ; signal_out[0] ; 15.046 ; 14.852 ; 15.330 ; 15.130 ;
+; signal_in[3]       ; signal_out[1] ; 15.393 ; 15.204 ; 15.677 ; 15.482 ;
+; signal_in[3]       ; signal_out[2] ; 14.979 ; 14.801 ; 15.263 ; 15.079 ;
+; signal_in[3]       ; signal_out[3] ; 14.826 ; 14.630 ; 15.110 ; 14.908 ;
+; signal_in[3]       ; signal_out[4] ; 15.052 ; 14.871 ; 15.336 ; 15.149 ;
+; signal_in[3]       ; signal_out[6] ; 15.666 ; 15.561 ; 15.950 ; 15.839 ;
+; signal_in[4]       ; signal_out[0] ; 14.948 ; 14.754 ; 15.229 ; 15.029 ;
+; signal_in[4]       ; signal_out[1] ; 15.295 ; 15.106 ; 15.576 ; 15.381 ;
+; signal_in[4]       ; signal_out[2] ; 14.881 ; 14.703 ; 15.162 ; 14.978 ;
+; signal_in[4]       ; signal_out[3] ; 14.728 ; 14.532 ; 15.009 ; 14.807 ;
+; signal_in[4]       ; signal_out[4] ; 14.954 ; 14.773 ; 15.235 ; 15.048 ;
+; signal_in[4]       ; signal_out[6] ; 15.568 ; 15.463 ; 15.849 ; 15.738 ;
+; signal_in[5]       ; signal_out[0] ; 14.951 ; 14.757 ; 15.220 ; 15.020 ;
+; signal_in[5]       ; signal_out[1] ; 15.298 ; 15.109 ; 15.567 ; 15.372 ;
+; signal_in[5]       ; signal_out[2] ; 14.884 ; 14.706 ; 15.153 ; 14.969 ;
+; signal_in[5]       ; signal_out[3] ; 14.731 ; 14.535 ; 15.000 ; 14.798 ;
+; signal_in[5]       ; signal_out[4] ; 14.957 ; 14.776 ; 15.226 ; 15.039 ;
+; signal_in[5]       ; signal_out[6] ; 15.571 ; 15.466 ; 15.840 ; 15.729 ;
+; signal_in[6]       ; signal_out[0] ; 15.044 ; 14.850 ; 15.312 ; 15.112 ;
+; signal_in[6]       ; signal_out[1] ; 15.391 ; 15.202 ; 15.659 ; 15.464 ;
+; signal_in[6]       ; signal_out[2] ; 14.977 ; 14.799 ; 15.245 ; 15.061 ;
+; signal_in[6]       ; signal_out[3] ; 14.824 ; 14.628 ; 15.092 ; 14.890 ;
+; signal_in[6]       ; signal_out[4] ; 15.050 ; 14.869 ; 15.318 ; 15.131 ;
+; signal_in[6]       ; signal_out[6] ; 15.664 ; 15.559 ; 15.932 ; 15.821 ;
+; signal_in[7]       ; signal_out[0] ; 15.266 ; 15.072 ; 15.542 ; 15.342 ;
+; signal_in[7]       ; signal_out[1] ; 15.613 ; 15.424 ; 15.889 ; 15.694 ;
+; signal_in[7]       ; signal_out[2] ; 15.199 ; 15.021 ; 15.475 ; 15.291 ;
+; signal_in[7]       ; signal_out[3] ; 15.046 ; 14.850 ; 15.322 ; 15.120 ;
+; signal_in[7]       ; signal_out[4] ; 15.272 ; 15.091 ; 15.548 ; 15.361 ;
+; signal_in[7]       ; signal_out[6] ; 15.886 ; 15.781 ; 16.162 ; 16.051 ;
++--------------------+---------------+--------+--------+--------+--------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------------------------+
+; Propagation Delay                                                          ;
++--------------------+---------------+---------+---------+---------+---------+
+; Input Port         ; Output Port   ; RR      ; RF      ; FR      ; FF      ;
++--------------------+---------------+---------+---------+---------+---------+
+; position_rotor1[0] ; signal_out[0] ; 108.507 ; 108.481 ; 109.114 ; 109.088 ;
+; position_rotor1[0] ; signal_out[1] ; 108.562 ; 108.627 ; 109.169 ; 109.234 ;
+; position_rotor1[0] ; signal_out[2] ; 108.170 ; 108.163 ; 108.777 ; 108.770 ;
+; position_rotor1[0] ; signal_out[3] ; 108.399 ; 108.380 ; 109.006 ; 108.987 ;
+; position_rotor1[0] ; signal_out[4] ; 108.322 ; 108.350 ; 108.929 ; 108.957 ;
+; position_rotor1[0] ; signal_out[6] ; 108.921 ; 108.910 ; 109.528 ; 109.517 ;
+; position_rotor1[1] ; signal_out[0] ; 108.378 ; 108.352 ; 109.102 ; 109.076 ;
+; position_rotor1[1] ; signal_out[1] ; 108.433 ; 108.498 ; 109.157 ; 109.222 ;
+; position_rotor1[1] ; signal_out[2] ; 108.041 ; 108.034 ; 108.765 ; 108.758 ;
+; position_rotor1[1] ; signal_out[3] ; 108.270 ; 108.251 ; 108.994 ; 108.975 ;
+; position_rotor1[1] ; signal_out[4] ; 108.193 ; 108.221 ; 108.917 ; 108.945 ;
+; position_rotor1[1] ; signal_out[6] ; 108.792 ; 108.781 ; 109.516 ; 109.505 ;
+; position_rotor1[2] ; signal_out[0] ; 108.407 ; 108.381 ; 109.008 ; 108.982 ;
+; position_rotor1[2] ; signal_out[1] ; 108.462 ; 108.527 ; 109.063 ; 109.128 ;
+; position_rotor1[2] ; signal_out[2] ; 108.070 ; 108.063 ; 108.671 ; 108.664 ;
+; position_rotor1[2] ; signal_out[3] ; 108.299 ; 108.280 ; 108.900 ; 108.881 ;
+; position_rotor1[2] ; signal_out[4] ; 108.222 ; 108.250 ; 108.823 ; 108.851 ;
+; position_rotor1[2] ; signal_out[6] ; 108.821 ; 108.810 ; 109.422 ; 109.411 ;
+; position_rotor1[3] ; signal_out[0] ; 107.102 ; 107.076 ; 107.553 ; 107.527 ;
+; position_rotor1[3] ; signal_out[1] ; 107.157 ; 107.222 ; 107.608 ; 107.673 ;
+; position_rotor1[3] ; signal_out[2] ; 106.765 ; 106.758 ; 107.216 ; 107.209 ;
+; position_rotor1[3] ; signal_out[3] ; 106.994 ; 106.975 ; 107.445 ; 107.426 ;
+; position_rotor1[3] ; signal_out[4] ; 106.917 ; 106.945 ; 107.368 ; 107.396 ;
+; position_rotor1[3] ; signal_out[6] ; 107.516 ; 107.505 ; 107.967 ; 107.956 ;
+; position_rotor1[4] ; signal_out[0] ; 107.112 ; 107.086 ; 107.439 ; 107.413 ;
+; position_rotor1[4] ; signal_out[1] ; 107.167 ; 107.232 ; 107.494 ; 107.559 ;
+; position_rotor1[4] ; signal_out[2] ; 106.775 ; 106.768 ; 107.102 ; 107.095 ;
+; position_rotor1[4] ; signal_out[3] ; 107.004 ; 106.985 ; 107.331 ; 107.312 ;
+; position_rotor1[4] ; signal_out[4] ; 106.927 ; 106.955 ; 107.254 ; 107.282 ;
+; position_rotor1[4] ; signal_out[6] ; 107.526 ; 107.515 ; 107.853 ; 107.842 ;
+; position_rotor2[0] ; signal_out[0] ; 93.045  ; 93.019  ; 93.667  ; 93.641  ;
+; position_rotor2[0] ; signal_out[1] ; 93.100  ; 93.165  ; 93.722  ; 93.787  ;
+; position_rotor2[0] ; signal_out[2] ; 92.708  ; 92.701  ; 93.330  ; 93.323  ;
+; position_rotor2[0] ; signal_out[3] ; 92.937  ; 92.918  ; 93.559  ; 93.540  ;
+; position_rotor2[0] ; signal_out[4] ; 92.860  ; 92.888  ; 93.482  ; 93.510  ;
+; position_rotor2[0] ; signal_out[6] ; 93.459  ; 93.448  ; 94.081  ; 94.070  ;
+; position_rotor2[1] ; signal_out[0] ; 92.970  ; 92.944  ; 93.723  ; 93.697  ;
+; position_rotor2[1] ; signal_out[1] ; 93.025  ; 93.090  ; 93.778  ; 93.843  ;
+; position_rotor2[1] ; signal_out[2] ; 92.633  ; 92.626  ; 93.386  ; 93.379  ;
+; position_rotor2[1] ; signal_out[3] ; 92.862  ; 92.843  ; 93.615  ; 93.596  ;
+; position_rotor2[1] ; signal_out[4] ; 92.785  ; 92.813  ; 93.538  ; 93.566  ;
+; position_rotor2[1] ; signal_out[6] ; 93.384  ; 93.373  ; 94.137  ; 94.126  ;
+; position_rotor2[2] ; signal_out[0] ; 91.889  ; 91.863  ; 92.158  ; 92.132  ;
+; position_rotor2[2] ; signal_out[1] ; 91.944  ; 92.009  ; 92.213  ; 92.278  ;
+; position_rotor2[2] ; signal_out[2] ; 91.552  ; 91.545  ; 91.821  ; 91.814  ;
+; position_rotor2[2] ; signal_out[3] ; 91.781  ; 91.762  ; 92.050  ; 92.031  ;
+; position_rotor2[2] ; signal_out[4] ; 91.704  ; 91.732  ; 91.973  ; 92.001  ;
+; position_rotor2[2] ; signal_out[6] ; 92.303  ; 92.292  ; 92.572  ; 92.561  ;
+; position_rotor2[3] ; signal_out[0] ; 91.769  ; 91.743  ; 92.165  ; 92.139  ;
+; position_rotor2[3] ; signal_out[1] ; 91.824  ; 91.889  ; 92.220  ; 92.285  ;
+; position_rotor2[3] ; signal_out[2] ; 91.432  ; 91.425  ; 91.828  ; 91.821  ;
+; position_rotor2[3] ; signal_out[3] ; 91.661  ; 91.642  ; 92.057  ; 92.038  ;
+; position_rotor2[3] ; signal_out[4] ; 91.584  ; 91.612  ; 91.980  ; 92.008  ;
+; position_rotor2[3] ; signal_out[6] ; 92.183  ; 92.172  ; 92.579  ; 92.568  ;
+; position_rotor2[4] ; signal_out[0] ; 92.705  ; 92.679  ; 93.230  ; 93.204  ;
+; position_rotor2[4] ; signal_out[1] ; 92.760  ; 92.825  ; 93.285  ; 93.350  ;
+; position_rotor2[4] ; signal_out[2] ; 92.368  ; 92.361  ; 92.893  ; 92.886  ;
+; position_rotor2[4] ; signal_out[3] ; 92.597  ; 92.578  ; 93.122  ; 93.103  ;
+; position_rotor2[4] ; signal_out[4] ; 92.520  ; 92.548  ; 93.045  ; 93.073  ;
+; position_rotor2[4] ; signal_out[6] ; 93.119  ; 93.108  ; 93.644  ; 93.633  ;
+; position_rotor3[0] ; signal_out[0] ; 78.540  ; 78.514  ; 79.090  ; 79.064  ;
+; position_rotor3[0] ; signal_out[1] ; 78.595  ; 78.660  ; 79.145  ; 79.210  ;
+; position_rotor3[0] ; signal_out[2] ; 78.203  ; 78.196  ; 78.753  ; 78.746  ;
+; position_rotor3[0] ; signal_out[3] ; 78.432  ; 78.413  ; 78.982  ; 78.963  ;
+; position_rotor3[0] ; signal_out[4] ; 78.355  ; 78.383  ; 78.905  ; 78.933  ;
+; position_rotor3[0] ; signal_out[6] ; 78.954  ; 78.943  ; 79.504  ; 79.493  ;
+; position_rotor3[1] ; signal_out[0] ; 78.542  ; 78.516  ; 79.246  ; 79.220  ;
+; position_rotor3[1] ; signal_out[1] ; 78.597  ; 78.662  ; 79.301  ; 79.366  ;
+; position_rotor3[1] ; signal_out[2] ; 78.205  ; 78.198  ; 78.909  ; 78.902  ;
+; position_rotor3[1] ; signal_out[3] ; 78.434  ; 78.415  ; 79.138  ; 79.119  ;
+; position_rotor3[1] ; signal_out[4] ; 78.357  ; 78.385  ; 79.061  ; 79.089  ;
+; position_rotor3[1] ; signal_out[6] ; 78.956  ; 78.945  ; 79.660  ; 79.649  ;
+; position_rotor3[2] ; signal_out[0] ; 78.434  ; 78.408  ; 78.966  ; 78.940  ;
+; position_rotor3[2] ; signal_out[1] ; 78.489  ; 78.554  ; 79.021  ; 79.086  ;
+; position_rotor3[2] ; signal_out[2] ; 78.097  ; 78.090  ; 78.629  ; 78.622  ;
+; position_rotor3[2] ; signal_out[3] ; 78.326  ; 78.307  ; 78.858  ; 78.839  ;
+; position_rotor3[2] ; signal_out[4] ; 78.249  ; 78.277  ; 78.781  ; 78.809  ;
+; position_rotor3[2] ; signal_out[6] ; 78.848  ; 78.837  ; 79.380  ; 79.369  ;
+; position_rotor3[3] ; signal_out[0] ; 78.574  ; 78.548  ; 79.305  ; 79.279  ;
+; position_rotor3[3] ; signal_out[1] ; 78.629  ; 78.694  ; 79.360  ; 79.425  ;
+; position_rotor3[3] ; signal_out[2] ; 78.237  ; 78.230  ; 78.968  ; 78.961  ;
+; position_rotor3[3] ; signal_out[3] ; 78.466  ; 78.447  ; 79.197  ; 79.178  ;
+; position_rotor3[3] ; signal_out[4] ; 78.389  ; 78.417  ; 79.120  ; 79.148  ;
+; position_rotor3[3] ; signal_out[6] ; 78.988  ; 78.977  ; 79.719  ; 79.708  ;
+; position_rotor3[4] ; signal_out[0] ; 78.230  ; 78.204  ; 78.757  ; 78.731  ;
+; position_rotor3[4] ; signal_out[1] ; 78.285  ; 78.350  ; 78.812  ; 78.877  ;
+; position_rotor3[4] ; signal_out[2] ; 77.893  ; 77.886  ; 78.420  ; 78.413  ;
+; position_rotor3[4] ; signal_out[3] ; 78.122  ; 78.103  ; 78.649  ; 78.630  ;
+; position_rotor3[4] ; signal_out[4] ; 78.045  ; 78.073  ; 78.572  ; 78.600  ;
+; position_rotor3[4] ; signal_out[6] ; 78.644  ; 78.633  ; 79.171  ; 79.160  ;
+; signal_in[0]       ; signal_out[0] ; 108.566 ; 108.540 ; 109.160 ; 109.134 ;
+; signal_in[0]       ; signal_out[1] ; 108.621 ; 108.686 ; 109.215 ; 109.280 ;
+; signal_in[0]       ; signal_out[2] ; 108.229 ; 108.222 ; 108.823 ; 108.816 ;
+; signal_in[0]       ; signal_out[3] ; 108.458 ; 108.439 ; 109.052 ; 109.033 ;
+; signal_in[0]       ; signal_out[4] ; 108.381 ; 108.409 ; 108.975 ; 109.003 ;
+; signal_in[0]       ; signal_out[6] ; 108.980 ; 108.969 ; 109.574 ; 109.563 ;
+; signal_in[1]       ; signal_out[0] ; 108.471 ; 108.445 ; 109.195 ; 109.169 ;
+; signal_in[1]       ; signal_out[1] ; 108.526 ; 108.591 ; 109.250 ; 109.315 ;
+; signal_in[1]       ; signal_out[2] ; 108.134 ; 108.127 ; 108.858 ; 108.851 ;
+; signal_in[1]       ; signal_out[3] ; 108.363 ; 108.344 ; 109.087 ; 109.068 ;
+; signal_in[1]       ; signal_out[4] ; 108.286 ; 108.314 ; 109.010 ; 109.038 ;
+; signal_in[1]       ; signal_out[6] ; 108.885 ; 108.874 ; 109.609 ; 109.598 ;
+; signal_in[2]       ; signal_out[0] ; 108.203 ; 108.177 ; 108.758 ; 108.732 ;
+; signal_in[2]       ; signal_out[1] ; 108.258 ; 108.323 ; 108.813 ; 108.878 ;
+; signal_in[2]       ; signal_out[2] ; 107.866 ; 107.859 ; 108.421 ; 108.414 ;
+; signal_in[2]       ; signal_out[3] ; 108.095 ; 108.076 ; 108.650 ; 108.631 ;
+; signal_in[2]       ; signal_out[4] ; 108.018 ; 108.046 ; 108.573 ; 108.601 ;
+; signal_in[2]       ; signal_out[6] ; 108.617 ; 108.606 ; 109.172 ; 109.161 ;
+; signal_in[3]       ; signal_out[0] ; 108.369 ; 108.343 ; 109.105 ; 109.079 ;
+; signal_in[3]       ; signal_out[1] ; 108.424 ; 108.489 ; 109.160 ; 109.225 ;
+; signal_in[3]       ; signal_out[2] ; 108.032 ; 108.025 ; 108.768 ; 108.761 ;
+; signal_in[3]       ; signal_out[3] ; 108.261 ; 108.242 ; 108.997 ; 108.978 ;
+; signal_in[3]       ; signal_out[4] ; 108.184 ; 108.212 ; 108.920 ; 108.948 ;
+; signal_in[3]       ; signal_out[6] ; 108.783 ; 108.772 ; 109.519 ; 109.508 ;
+; signal_in[4]       ; signal_out[0] ; 108.320 ; 108.294 ; 108.901 ; 108.875 ;
+; signal_in[4]       ; signal_out[1] ; 108.375 ; 108.440 ; 108.956 ; 109.021 ;
+; signal_in[4]       ; signal_out[2] ; 107.983 ; 107.976 ; 108.564 ; 108.557 ;
+; signal_in[4]       ; signal_out[3] ; 108.212 ; 108.193 ; 108.793 ; 108.774 ;
+; signal_in[4]       ; signal_out[4] ; 108.135 ; 108.163 ; 108.716 ; 108.744 ;
+; signal_in[4]       ; signal_out[6] ; 108.734 ; 108.723 ; 109.315 ; 109.304 ;
+; signal_in[5]       ; signal_out[0] ; 108.177 ; 108.151 ; 108.871 ; 108.845 ;
+; signal_in[5]       ; signal_out[1] ; 108.232 ; 108.297 ; 108.926 ; 108.991 ;
+; signal_in[5]       ; signal_out[2] ; 107.840 ; 107.833 ; 108.534 ; 108.527 ;
+; signal_in[5]       ; signal_out[3] ; 108.069 ; 108.050 ; 108.763 ; 108.744 ;
+; signal_in[5]       ; signal_out[4] ; 107.992 ; 108.020 ; 108.686 ; 108.714 ;
+; signal_in[5]       ; signal_out[6] ; 108.591 ; 108.580 ; 109.285 ; 109.274 ;
+; signal_in[6]       ; signal_out[0] ; 108.373 ; 108.347 ; 108.868 ; 108.842 ;
+; signal_in[6]       ; signal_out[1] ; 108.428 ; 108.493 ; 108.923 ; 108.988 ;
+; signal_in[6]       ; signal_out[2] ; 108.036 ; 108.029 ; 108.531 ; 108.524 ;
+; signal_in[6]       ; signal_out[3] ; 108.265 ; 108.246 ; 108.760 ; 108.741 ;
+; signal_in[6]       ; signal_out[4] ; 108.188 ; 108.216 ; 108.683 ; 108.711 ;
+; signal_in[6]       ; signal_out[6] ; 108.787 ; 108.776 ; 109.282 ; 109.271 ;
+; signal_in[7]       ; signal_out[0] ; 108.301 ; 108.275 ; 108.873 ; 108.847 ;
+; signal_in[7]       ; signal_out[1] ; 108.356 ; 108.421 ; 108.928 ; 108.993 ;
+; signal_in[7]       ; signal_out[2] ; 107.964 ; 107.957 ; 108.536 ; 108.529 ;
+; signal_in[7]       ; signal_out[3] ; 108.193 ; 108.174 ; 108.765 ; 108.746 ;
+; signal_in[7]       ; signal_out[4] ; 108.116 ; 108.144 ; 108.688 ; 108.716 ;
+; signal_in[7]       ; signal_out[6] ; 108.715 ; 108.704 ; 109.287 ; 109.276 ;
++--------------------+---------------+---------+---------+---------+---------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Propagation Delay                                             ;
++--------------------+---------------+-------+--------+--------+--------+
+; Input Port         ; Output Port   ; RR    ; RF     ; FR     ; FF     ;
++--------------------+---------------+-------+--------+--------+--------+
+; position_rotor1[0] ; signal_out[0] ; 5.022 ; 4.942  ; 5.600  ; 5.564  ;
+; position_rotor1[0] ; signal_out[1] ; 5.275 ; 5.320  ; 5.897  ; 5.942  ;
+; position_rotor1[0] ; signal_out[2] ; 5.243 ; 5.277  ; 5.865  ; 5.899  ;
+; position_rotor1[0] ; signal_out[3] ; 5.284 ; 5.385  ; 5.906  ; 6.007  ;
+; position_rotor1[0] ; signal_out[4] ; 4.992 ; 5.113  ; 5.614  ; 5.691  ;
+; position_rotor1[0] ; signal_out[6] ; 6.430 ; 6.400  ; 7.052  ; 7.022  ;
+; position_rotor1[1] ; signal_out[0] ; 5.777 ; 5.720  ; 6.356  ; 6.299  ;
+; position_rotor1[1] ; signal_out[1] ; 5.884 ; 5.908  ; 6.463  ; 6.487  ;
+; position_rotor1[1] ; signal_out[2] ; 5.731 ; 5.697  ; 6.310  ; 6.276  ;
+; position_rotor1[1] ; signal_out[3] ; 5.883 ; 5.893  ; 6.462  ; 6.472  ;
+; position_rotor1[1] ; signal_out[4] ; 5.686 ; 5.698  ; 6.265  ; 6.277  ;
+; position_rotor1[1] ; signal_out[6] ; 6.537 ; 6.502  ; 7.116  ; 7.081  ;
+; position_rotor1[2] ; signal_out[0] ; 5.642 ; 5.585  ; 6.205  ; 6.148  ;
+; position_rotor1[2] ; signal_out[1] ; 5.749 ; 5.773  ; 6.312  ; 6.336  ;
+; position_rotor1[2] ; signal_out[2] ; 5.596 ; 5.562  ; 6.159  ; 6.125  ;
+; position_rotor1[2] ; signal_out[3] ; 5.748 ; 5.758  ; 6.311  ; 6.321  ;
+; position_rotor1[2] ; signal_out[4] ; 5.551 ; 5.563  ; 6.114  ; 6.126  ;
+; position_rotor1[2] ; signal_out[6] ; 6.402 ; 6.367  ; 6.965  ; 6.930  ;
+; position_rotor1[3] ; signal_out[0] ; 4.304 ; 4.247  ; 4.631  ; 4.574  ;
+; position_rotor1[3] ; signal_out[1] ; 4.411 ; 4.435  ; 4.738  ; 4.762  ;
+; position_rotor1[3] ; signal_out[2] ; 4.258 ; 4.224  ; 4.585  ; 4.551  ;
+; position_rotor1[3] ; signal_out[3] ; 4.410 ; 4.420  ; 4.737  ; 4.747  ;
+; position_rotor1[3] ; signal_out[4] ; 4.213 ; 4.225  ; 4.540  ; 4.552  ;
+; position_rotor1[3] ; signal_out[6] ; 5.064 ; 5.029  ; 5.391  ; 5.356  ;
+; position_rotor1[4] ; signal_out[0] ; 4.320 ; 4.263  ; 4.632  ; 4.575  ;
+; position_rotor1[4] ; signal_out[1] ; 4.427 ; 4.451  ; 4.739  ; 4.763  ;
+; position_rotor1[4] ; signal_out[2] ; 4.274 ; 4.240  ; 4.586  ; 4.552  ;
+; position_rotor1[4] ; signal_out[3] ; 4.426 ; 4.436  ; 4.738  ; 4.748  ;
+; position_rotor1[4] ; signal_out[4] ; 4.229 ; 4.241  ; 4.541  ; 4.553  ;
+; position_rotor1[4] ; signal_out[6] ; 5.080 ; 5.045  ; 5.392  ; 5.357  ;
+; position_rotor2[0] ; signal_out[0] ; 5.708 ; 5.779  ; 6.325  ; 6.396  ;
+; position_rotor2[0] ; signal_out[1] ; 5.919 ; 6.030  ; 6.536  ; 6.647  ;
+; position_rotor2[0] ; signal_out[2] ; 5.679 ; 5.760  ; 6.296  ; 6.377  ;
+; position_rotor2[0] ; signal_out[3] ; 5.569 ; 5.639  ; 6.186  ; 6.256  ;
+; position_rotor2[0] ; signal_out[4] ; 5.721 ; 5.808  ; 6.338  ; 6.425  ;
+; position_rotor2[0] ; signal_out[6] ; 6.283 ; 6.367  ; 6.900  ; 6.984  ;
+; position_rotor2[1] ; signal_out[0] ; 6.343 ; 6.414  ; 6.917  ; 6.988  ;
+; position_rotor2[1] ; signal_out[1] ; 6.554 ; 6.665  ; 7.128  ; 7.239  ;
+; position_rotor2[1] ; signal_out[2] ; 6.314 ; 6.395  ; 6.888  ; 6.969  ;
+; position_rotor2[1] ; signal_out[3] ; 6.204 ; 6.274  ; 6.778  ; 6.848  ;
+; position_rotor2[1] ; signal_out[4] ; 6.356 ; 6.443  ; 6.930  ; 7.017  ;
+; position_rotor2[1] ; signal_out[6] ; 6.918 ; 7.002  ; 7.492  ; 7.576  ;
+; position_rotor2[2] ; signal_out[0] ; 5.497 ; 5.568  ; 5.734  ; 5.805  ;
+; position_rotor2[2] ; signal_out[1] ; 5.708 ; 5.819  ; 5.945  ; 6.056  ;
+; position_rotor2[2] ; signal_out[2] ; 5.468 ; 5.549  ; 5.705  ; 5.786  ;
+; position_rotor2[2] ; signal_out[3] ; 5.358 ; 5.428  ; 5.595  ; 5.665  ;
+; position_rotor2[2] ; signal_out[4] ; 5.510 ; 5.597  ; 5.747  ; 5.834  ;
+; position_rotor2[2] ; signal_out[6] ; 6.072 ; 6.156  ; 6.309  ; 6.393  ;
+; position_rotor2[3] ; signal_out[0] ; 5.514 ; 5.585  ; 5.742  ; 5.813  ;
+; position_rotor2[3] ; signal_out[1] ; 5.725 ; 5.836  ; 5.953  ; 6.064  ;
+; position_rotor2[3] ; signal_out[2] ; 5.485 ; 5.566  ; 5.713  ; 5.794  ;
+; position_rotor2[3] ; signal_out[3] ; 5.375 ; 5.445  ; 5.603  ; 5.673  ;
+; position_rotor2[3] ; signal_out[4] ; 5.527 ; 5.614  ; 5.755  ; 5.842  ;
+; position_rotor2[3] ; signal_out[6] ; 6.089 ; 6.173  ; 6.317  ; 6.401  ;
+; position_rotor2[4] ; signal_out[0] ; 6.288 ; 6.359  ; 6.858  ; 6.929  ;
+; position_rotor2[4] ; signal_out[1] ; 6.499 ; 6.610  ; 7.069  ; 7.180  ;
+; position_rotor2[4] ; signal_out[2] ; 6.259 ; 6.340  ; 6.829  ; 6.910  ;
+; position_rotor2[4] ; signal_out[3] ; 6.149 ; 6.219  ; 6.719  ; 6.789  ;
+; position_rotor2[4] ; signal_out[4] ; 6.301 ; 6.388  ; 6.871  ; 6.958  ;
+; position_rotor2[4] ; signal_out[6] ; 6.863 ; 6.947  ; 7.433  ; 7.517  ;
+; position_rotor3[0] ; signal_out[0] ; 6.760 ; 6.753  ; 7.325  ; 7.347  ;
+; position_rotor3[0] ; signal_out[1] ; 6.971 ; 7.004  ; 7.536  ; 7.598  ;
+; position_rotor3[0] ; signal_out[2] ; 6.731 ; 6.734  ; 7.296  ; 7.328  ;
+; position_rotor3[0] ; signal_out[3] ; 6.621 ; 6.613  ; 7.186  ; 7.207  ;
+; position_rotor3[0] ; signal_out[4] ; 6.773 ; 6.782  ; 7.338  ; 7.376  ;
+; position_rotor3[0] ; signal_out[6] ; 7.335 ; 7.341  ; 7.900  ; 7.935  ;
+; position_rotor3[1] ; signal_out[0] ; 7.365 ; 7.539  ; 7.929  ; 8.103  ;
+; position_rotor3[1] ; signal_out[1] ; 7.576 ; 7.790  ; 8.140  ; 8.354  ;
+; position_rotor3[1] ; signal_out[2] ; 7.336 ; 7.520  ; 7.900  ; 8.084  ;
+; position_rotor3[1] ; signal_out[3] ; 7.226 ; 7.399  ; 7.790  ; 7.963  ;
+; position_rotor3[1] ; signal_out[4] ; 7.378 ; 7.568  ; 7.942  ; 8.132  ;
+; position_rotor3[1] ; signal_out[6] ; 7.940 ; 8.127  ; 8.504  ; 8.691  ;
+; position_rotor3[2] ; signal_out[0] ; 7.401 ; 7.575  ; 7.981  ; 8.155  ;
+; position_rotor3[2] ; signal_out[1] ; 7.612 ; 7.826  ; 8.192  ; 8.406  ;
+; position_rotor3[2] ; signal_out[2] ; 7.372 ; 7.556  ; 7.952  ; 8.136  ;
+; position_rotor3[2] ; signal_out[3] ; 7.262 ; 7.435  ; 7.842  ; 8.015  ;
+; position_rotor3[2] ; signal_out[4] ; 7.414 ; 7.604  ; 7.994  ; 8.184  ;
+; position_rotor3[2] ; signal_out[6] ; 7.976 ; 8.163  ; 8.556  ; 8.743  ;
+; position_rotor3[3] ; signal_out[0] ; 7.303 ; 7.477  ; 7.863  ; 8.037  ;
+; position_rotor3[3] ; signal_out[1] ; 7.514 ; 7.728  ; 8.074  ; 8.288  ;
+; position_rotor3[3] ; signal_out[2] ; 7.274 ; 7.458  ; 7.834  ; 8.018  ;
+; position_rotor3[3] ; signal_out[3] ; 7.164 ; 7.337  ; 7.724  ; 7.897  ;
+; position_rotor3[3] ; signal_out[4] ; 7.316 ; 7.506  ; 7.876  ; 8.066  ;
+; position_rotor3[3] ; signal_out[6] ; 7.878 ; 8.065  ; 8.438  ; 8.625  ;
+; position_rotor3[4] ; signal_out[0] ; 7.444 ; 7.618  ; 8.056  ; 8.230  ;
+; position_rotor3[4] ; signal_out[1] ; 7.655 ; 7.869  ; 8.267  ; 8.481  ;
+; position_rotor3[4] ; signal_out[2] ; 7.415 ; 7.599  ; 8.027  ; 8.211  ;
+; position_rotor3[4] ; signal_out[3] ; 7.305 ; 7.478  ; 7.917  ; 8.090  ;
+; position_rotor3[4] ; signal_out[4] ; 7.457 ; 7.647  ; 8.069  ; 8.259  ;
+; position_rotor3[4] ; signal_out[6] ; 8.019 ; 8.206  ; 8.631  ; 8.818  ;
+; signal_in[0]       ; signal_out[0] ; 9.298 ; 9.569  ; 10.167 ; 10.431 ;
+; signal_in[0]       ; signal_out[1] ; 9.509 ; 9.820  ; 10.378 ; 10.682 ;
+; signal_in[0]       ; signal_out[2] ; 9.269 ; 9.550  ; 10.138 ; 10.412 ;
+; signal_in[0]       ; signal_out[3] ; 9.159 ; 9.429  ; 10.028 ; 10.291 ;
+; signal_in[0]       ; signal_out[4] ; 9.311 ; 9.598  ; 10.180 ; 10.460 ;
+; signal_in[0]       ; signal_out[6] ; 9.873 ; 10.157 ; 10.742 ; 11.019 ;
+; signal_in[1]       ; signal_out[0] ; 9.155 ; 9.426  ; 10.013 ; 10.277 ;
+; signal_in[1]       ; signal_out[1] ; 9.366 ; 9.677  ; 10.224 ; 10.528 ;
+; signal_in[1]       ; signal_out[2] ; 9.126 ; 9.407  ; 9.984  ; 10.258 ;
+; signal_in[1]       ; signal_out[3] ; 9.016 ; 9.286  ; 9.874  ; 10.137 ;
+; signal_in[1]       ; signal_out[4] ; 9.168 ; 9.455  ; 10.026 ; 10.306 ;
+; signal_in[1]       ; signal_out[6] ; 9.730 ; 10.014 ; 10.588 ; 10.865 ;
+; signal_in[2]       ; signal_out[0] ; 8.939 ; 9.210  ; 9.769  ; 10.033 ;
+; signal_in[2]       ; signal_out[1] ; 9.150 ; 9.461  ; 9.980  ; 10.284 ;
+; signal_in[2]       ; signal_out[2] ; 8.910 ; 9.191  ; 9.740  ; 10.014 ;
+; signal_in[2]       ; signal_out[3] ; 8.800 ; 9.070  ; 9.630  ; 9.893  ;
+; signal_in[2]       ; signal_out[4] ; 8.952 ; 9.239  ; 9.782  ; 10.062 ;
+; signal_in[2]       ; signal_out[6] ; 9.514 ; 9.798  ; 10.344 ; 10.621 ;
+; signal_in[3]       ; signal_out[0] ; 9.257 ; 9.528  ; 10.130 ; 10.394 ;
+; signal_in[3]       ; signal_out[1] ; 9.468 ; 9.779  ; 10.341 ; 10.645 ;
+; signal_in[3]       ; signal_out[2] ; 9.228 ; 9.509  ; 10.101 ; 10.375 ;
+; signal_in[3]       ; signal_out[3] ; 9.118 ; 9.388  ; 9.991  ; 10.254 ;
+; signal_in[3]       ; signal_out[4] ; 9.270 ; 9.557  ; 10.143 ; 10.423 ;
+; signal_in[3]       ; signal_out[6] ; 9.832 ; 10.116 ; 10.705 ; 10.982 ;
+; signal_in[4]       ; signal_out[0] ; 9.172 ; 9.443  ; 10.025 ; 10.289 ;
+; signal_in[4]       ; signal_out[1] ; 9.383 ; 9.694  ; 10.236 ; 10.540 ;
+; signal_in[4]       ; signal_out[2] ; 9.143 ; 9.424  ; 9.996  ; 10.270 ;
+; signal_in[4]       ; signal_out[3] ; 9.033 ; 9.303  ; 9.886  ; 10.149 ;
+; signal_in[4]       ; signal_out[4] ; 9.185 ; 9.472  ; 10.038 ; 10.318 ;
+; signal_in[4]       ; signal_out[6] ; 9.747 ; 10.031 ; 10.600 ; 10.877 ;
+; signal_in[5]       ; signal_out[0] ; 9.197 ; 9.468  ; 10.033 ; 10.297 ;
+; signal_in[5]       ; signal_out[1] ; 9.408 ; 9.719  ; 10.244 ; 10.548 ;
+; signal_in[5]       ; signal_out[2] ; 9.168 ; 9.449  ; 10.004 ; 10.278 ;
+; signal_in[5]       ; signal_out[3] ; 9.058 ; 9.328  ; 9.894  ; 10.157 ;
+; signal_in[5]       ; signal_out[4] ; 9.210 ; 9.497  ; 10.046 ; 10.326 ;
+; signal_in[5]       ; signal_out[6] ; 9.772 ; 10.056 ; 10.608 ; 10.885 ;
+; signal_in[6]       ; signal_out[0] ; 9.230 ; 9.501  ; 10.095 ; 10.359 ;
+; signal_in[6]       ; signal_out[1] ; 9.441 ; 9.752  ; 10.306 ; 10.610 ;
+; signal_in[6]       ; signal_out[2] ; 9.201 ; 9.482  ; 10.066 ; 10.340 ;
+; signal_in[6]       ; signal_out[3] ; 9.091 ; 9.361  ; 9.956  ; 10.219 ;
+; signal_in[6]       ; signal_out[4] ; 9.243 ; 9.530  ; 10.108 ; 10.388 ;
+; signal_in[6]       ; signal_out[6] ; 9.805 ; 10.089 ; 10.670 ; 10.947 ;
+; signal_in[7]       ; signal_out[0] ; 9.388 ; 9.659  ; 10.259 ; 10.523 ;
+; signal_in[7]       ; signal_out[1] ; 9.599 ; 9.910  ; 10.470 ; 10.774 ;
+; signal_in[7]       ; signal_out[2] ; 9.359 ; 9.640  ; 10.230 ; 10.504 ;
+; signal_in[7]       ; signal_out[3] ; 9.249 ; 9.519  ; 10.120 ; 10.383 ;
+; signal_in[7]       ; signal_out[4] ; 9.401 ; 9.688  ; 10.272 ; 10.552 ;
+; signal_in[7]       ; signal_out[6] ; 9.963 ; 10.247 ; 10.834 ; 11.111 ;
++--------------------+---------------+-------+--------+--------+--------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++----------------------------------------------------------------------------+
+; Propagation Delay                                                          ;
++--------------------+---------------+---------+---------+---------+---------+
+; Input Port         ; Output Port   ; RR      ; RF      ; FR      ; FF      ;
++--------------------+---------------+---------+---------+---------+---------+
+; position_rotor1[0] ; signal_out[0] ; 192.936 ; 192.761 ; 193.355 ; 193.180 ;
+; position_rotor1[0] ; signal_out[1] ; 193.043 ; 192.951 ; 193.462 ; 193.370 ;
+; position_rotor1[0] ; signal_out[2] ; 192.283 ; 192.149 ; 192.702 ; 192.568 ;
+; position_rotor1[0] ; signal_out[3] ; 192.766 ; 192.591 ; 193.185 ; 193.010 ;
+; position_rotor1[0] ; signal_out[4] ; 192.590 ; 192.495 ; 193.009 ; 192.914 ;
+; position_rotor1[0] ; signal_out[6] ; 193.411 ; 193.291 ; 193.830 ; 193.710 ;
+; position_rotor1[1] ; signal_out[0] ; 192.708 ; 192.533 ; 193.351 ; 193.176 ;
+; position_rotor1[1] ; signal_out[1] ; 192.815 ; 192.723 ; 193.458 ; 193.366 ;
+; position_rotor1[1] ; signal_out[2] ; 192.055 ; 191.921 ; 192.698 ; 192.564 ;
+; position_rotor1[1] ; signal_out[3] ; 192.538 ; 192.363 ; 193.181 ; 193.006 ;
+; position_rotor1[1] ; signal_out[4] ; 192.362 ; 192.267 ; 193.005 ; 192.910 ;
+; position_rotor1[1] ; signal_out[6] ; 193.183 ; 193.063 ; 193.826 ; 193.706 ;
+; position_rotor1[2] ; signal_out[0] ; 192.782 ; 192.607 ; 193.195 ; 193.020 ;
+; position_rotor1[2] ; signal_out[1] ; 192.889 ; 192.797 ; 193.302 ; 193.210 ;
+; position_rotor1[2] ; signal_out[2] ; 192.129 ; 191.995 ; 192.542 ; 192.408 ;
+; position_rotor1[2] ; signal_out[3] ; 192.612 ; 192.437 ; 193.025 ; 192.850 ;
+; position_rotor1[2] ; signal_out[4] ; 192.436 ; 192.341 ; 192.849 ; 192.754 ;
+; position_rotor1[2] ; signal_out[6] ; 193.257 ; 193.137 ; 193.670 ; 193.550 ;
+; position_rotor1[3] ; signal_out[0] ; 190.438 ; 190.263 ; 190.805 ; 190.630 ;
+; position_rotor1[3] ; signal_out[1] ; 190.545 ; 190.453 ; 190.912 ; 190.820 ;
+; position_rotor1[3] ; signal_out[2] ; 189.785 ; 189.651 ; 190.152 ; 190.018 ;
+; position_rotor1[3] ; signal_out[3] ; 190.268 ; 190.093 ; 190.635 ; 190.460 ;
+; position_rotor1[3] ; signal_out[4] ; 190.092 ; 189.997 ; 190.459 ; 190.364 ;
+; position_rotor1[3] ; signal_out[6] ; 190.913 ; 190.793 ; 191.280 ; 191.160 ;
+; position_rotor1[4] ; signal_out[0] ; 190.447 ; 190.272 ; 190.600 ; 190.425 ;
+; position_rotor1[4] ; signal_out[1] ; 190.554 ; 190.462 ; 190.707 ; 190.615 ;
+; position_rotor1[4] ; signal_out[2] ; 189.794 ; 189.660 ; 189.947 ; 189.813 ;
+; position_rotor1[4] ; signal_out[3] ; 190.277 ; 190.102 ; 190.430 ; 190.255 ;
+; position_rotor1[4] ; signal_out[4] ; 190.101 ; 190.006 ; 190.254 ; 190.159 ;
+; position_rotor1[4] ; signal_out[6] ; 190.922 ; 190.802 ; 191.075 ; 190.955 ;
+; position_rotor2[0] ; signal_out[0] ; 165.432 ; 165.257 ; 165.890 ; 165.715 ;
+; position_rotor2[0] ; signal_out[1] ; 165.539 ; 165.447 ; 165.997 ; 165.905 ;
+; position_rotor2[0] ; signal_out[2] ; 164.779 ; 164.645 ; 165.237 ; 165.103 ;
+; position_rotor2[0] ; signal_out[3] ; 165.262 ; 165.087 ; 165.720 ; 165.545 ;
+; position_rotor2[0] ; signal_out[4] ; 165.086 ; 164.991 ; 165.544 ; 165.449 ;
+; position_rotor2[0] ; signal_out[6] ; 165.907 ; 165.787 ; 166.365 ; 166.245 ;
+; position_rotor2[1] ; signal_out[0] ; 165.291 ; 165.116 ; 165.982 ; 165.807 ;
+; position_rotor2[1] ; signal_out[1] ; 165.398 ; 165.306 ; 166.089 ; 165.997 ;
+; position_rotor2[1] ; signal_out[2] ; 164.638 ; 164.504 ; 165.329 ; 165.195 ;
+; position_rotor2[1] ; signal_out[3] ; 165.121 ; 164.946 ; 165.812 ; 165.637 ;
+; position_rotor2[1] ; signal_out[4] ; 164.945 ; 164.850 ; 165.636 ; 165.541 ;
+; position_rotor2[1] ; signal_out[6] ; 165.766 ; 165.646 ; 166.457 ; 166.337 ;
+; position_rotor2[2] ; signal_out[0] ; 163.323 ; 163.148 ; 163.433 ; 163.258 ;
+; position_rotor2[2] ; signal_out[1] ; 163.430 ; 163.338 ; 163.540 ; 163.448 ;
+; position_rotor2[2] ; signal_out[2] ; 162.670 ; 162.536 ; 162.780 ; 162.646 ;
+; position_rotor2[2] ; signal_out[3] ; 163.153 ; 162.978 ; 163.263 ; 163.088 ;
+; position_rotor2[2] ; signal_out[4] ; 162.977 ; 162.882 ; 163.087 ; 162.992 ;
+; position_rotor2[2] ; signal_out[6] ; 163.798 ; 163.678 ; 163.908 ; 163.788 ;
+; position_rotor2[3] ; signal_out[0] ; 163.084 ; 162.909 ; 163.404 ; 163.229 ;
+; position_rotor2[3] ; signal_out[1] ; 163.191 ; 163.099 ; 163.511 ; 163.419 ;
+; position_rotor2[3] ; signal_out[2] ; 162.431 ; 162.297 ; 162.751 ; 162.617 ;
+; position_rotor2[3] ; signal_out[3] ; 162.914 ; 162.739 ; 163.234 ; 163.059 ;
+; position_rotor2[3] ; signal_out[4] ; 162.738 ; 162.643 ; 163.058 ; 162.963 ;
+; position_rotor2[3] ; signal_out[6] ; 163.559 ; 163.439 ; 163.879 ; 163.759 ;
+; position_rotor2[4] ; signal_out[0] ; 164.808 ; 164.633 ; 164.986 ; 164.811 ;
+; position_rotor2[4] ; signal_out[1] ; 164.915 ; 164.823 ; 165.093 ; 165.001 ;
+; position_rotor2[4] ; signal_out[2] ; 164.155 ; 164.021 ; 164.333 ; 164.199 ;
+; position_rotor2[4] ; signal_out[3] ; 164.638 ; 164.463 ; 164.816 ; 164.641 ;
+; position_rotor2[4] ; signal_out[4] ; 164.462 ; 164.367 ; 164.640 ; 164.545 ;
+; position_rotor2[4] ; signal_out[6] ; 165.283 ; 165.163 ; 165.461 ; 165.341 ;
+; position_rotor3[0] ; signal_out[0] ; 139.398 ; 139.223 ; 139.804 ; 139.629 ;
+; position_rotor3[0] ; signal_out[1] ; 139.505 ; 139.413 ; 139.911 ; 139.819 ;
+; position_rotor3[0] ; signal_out[2] ; 138.745 ; 138.611 ; 139.151 ; 139.017 ;
+; position_rotor3[0] ; signal_out[3] ; 139.228 ; 139.053 ; 139.634 ; 139.459 ;
+; position_rotor3[0] ; signal_out[4] ; 139.052 ; 138.957 ; 139.458 ; 139.363 ;
+; position_rotor3[0] ; signal_out[6] ; 139.873 ; 139.753 ; 140.279 ; 140.159 ;
+; position_rotor3[1] ; signal_out[0] ; 139.376 ; 139.201 ; 140.051 ; 139.876 ;
+; position_rotor3[1] ; signal_out[1] ; 139.483 ; 139.391 ; 140.158 ; 140.066 ;
+; position_rotor3[1] ; signal_out[2] ; 138.723 ; 138.589 ; 139.398 ; 139.264 ;
+; position_rotor3[1] ; signal_out[3] ; 139.206 ; 139.031 ; 139.881 ; 139.706 ;
+; position_rotor3[1] ; signal_out[4] ; 139.030 ; 138.935 ; 139.705 ; 139.610 ;
+; position_rotor3[1] ; signal_out[6] ; 139.851 ; 139.731 ; 140.526 ; 140.406 ;
+; position_rotor3[2] ; signal_out[0] ; 139.191 ; 139.016 ; 139.603 ; 139.428 ;
+; position_rotor3[2] ; signal_out[1] ; 139.298 ; 139.206 ; 139.710 ; 139.618 ;
+; position_rotor3[2] ; signal_out[2] ; 138.538 ; 138.404 ; 138.950 ; 138.816 ;
+; position_rotor3[2] ; signal_out[3] ; 139.021 ; 138.846 ; 139.433 ; 139.258 ;
+; position_rotor3[2] ; signal_out[4] ; 138.845 ; 138.750 ; 139.257 ; 139.162 ;
+; position_rotor3[2] ; signal_out[6] ; 139.666 ; 139.546 ; 140.078 ; 139.958 ;
+; position_rotor3[3] ; signal_out[0] ; 139.514 ; 139.339 ; 140.163 ; 139.988 ;
+; position_rotor3[3] ; signal_out[1] ; 139.621 ; 139.529 ; 140.270 ; 140.178 ;
+; position_rotor3[3] ; signal_out[2] ; 138.861 ; 138.727 ; 139.510 ; 139.376 ;
+; position_rotor3[3] ; signal_out[3] ; 139.344 ; 139.169 ; 139.993 ; 139.818 ;
+; position_rotor3[3] ; signal_out[4] ; 139.168 ; 139.073 ; 139.817 ; 139.722 ;
+; position_rotor3[3] ; signal_out[6] ; 139.989 ; 139.869 ; 140.638 ; 140.518 ;
+; position_rotor3[4] ; signal_out[0] ; 138.876 ; 138.701 ; 139.186 ; 139.011 ;
+; position_rotor3[4] ; signal_out[1] ; 138.983 ; 138.891 ; 139.293 ; 139.201 ;
+; position_rotor3[4] ; signal_out[2] ; 138.223 ; 138.089 ; 138.533 ; 138.399 ;
+; position_rotor3[4] ; signal_out[3] ; 138.706 ; 138.531 ; 139.016 ; 138.841 ;
+; position_rotor3[4] ; signal_out[4] ; 138.530 ; 138.435 ; 138.840 ; 138.745 ;
+; position_rotor3[4] ; signal_out[6] ; 139.351 ; 139.231 ; 139.661 ; 139.541 ;
+; signal_in[0]       ; signal_out[0] ; 193.035 ; 192.860 ; 193.423 ; 193.248 ;
+; signal_in[0]       ; signal_out[1] ; 193.142 ; 193.050 ; 193.530 ; 193.438 ;
+; signal_in[0]       ; signal_out[2] ; 192.382 ; 192.248 ; 192.770 ; 192.636 ;
+; signal_in[0]       ; signal_out[3] ; 192.865 ; 192.690 ; 193.253 ; 193.078 ;
+; signal_in[0]       ; signal_out[4] ; 192.689 ; 192.594 ; 193.077 ; 192.982 ;
+; signal_in[0]       ; signal_out[6] ; 193.510 ; 193.390 ; 193.898 ; 193.778 ;
+; signal_in[1]       ; signal_out[0] ; 192.854 ; 192.679 ; 193.484 ; 193.309 ;
+; signal_in[1]       ; signal_out[1] ; 192.961 ; 192.869 ; 193.591 ; 193.499 ;
+; signal_in[1]       ; signal_out[2] ; 192.201 ; 192.067 ; 192.831 ; 192.697 ;
+; signal_in[1]       ; signal_out[3] ; 192.684 ; 192.509 ; 193.314 ; 193.139 ;
+; signal_in[1]       ; signal_out[4] ; 192.508 ; 192.413 ; 193.138 ; 193.043 ;
+; signal_in[1]       ; signal_out[6] ; 193.329 ; 193.209 ; 193.959 ; 193.839 ;
+; signal_in[2]       ; signal_out[0] ; 192.381 ; 192.206 ; 192.772 ; 192.597 ;
+; signal_in[2]       ; signal_out[1] ; 192.488 ; 192.396 ; 192.879 ; 192.787 ;
+; signal_in[2]       ; signal_out[2] ; 191.728 ; 191.594 ; 192.119 ; 191.985 ;
+; signal_in[2]       ; signal_out[3] ; 192.211 ; 192.036 ; 192.602 ; 192.427 ;
+; signal_in[2]       ; signal_out[4] ; 192.035 ; 191.940 ; 192.426 ; 192.331 ;
+; signal_in[2]       ; signal_out[6] ; 192.856 ; 192.736 ; 193.247 ; 193.127 ;
+; signal_in[3]       ; signal_out[0] ; 192.667 ; 192.492 ; 193.306 ; 193.131 ;
+; signal_in[3]       ; signal_out[1] ; 192.774 ; 192.682 ; 193.413 ; 193.321 ;
+; signal_in[3]       ; signal_out[2] ; 192.014 ; 191.880 ; 192.653 ; 192.519 ;
+; signal_in[3]       ; signal_out[3] ; 192.497 ; 192.322 ; 193.136 ; 192.961 ;
+; signal_in[3]       ; signal_out[4] ; 192.321 ; 192.226 ; 192.960 ; 192.865 ;
+; signal_in[3]       ; signal_out[6] ; 193.142 ; 193.022 ; 193.781 ; 193.661 ;
+; signal_in[4]       ; signal_out[0] ; 192.632 ; 192.457 ; 193.012 ; 192.837 ;
+; signal_in[4]       ; signal_out[1] ; 192.739 ; 192.647 ; 193.119 ; 193.027 ;
+; signal_in[4]       ; signal_out[2] ; 191.979 ; 191.845 ; 192.359 ; 192.225 ;
+; signal_in[4]       ; signal_out[3] ; 192.462 ; 192.287 ; 192.842 ; 192.667 ;
+; signal_in[4]       ; signal_out[4] ; 192.286 ; 192.191 ; 192.666 ; 192.571 ;
+; signal_in[4]       ; signal_out[6] ; 193.107 ; 192.987 ; 193.487 ; 193.367 ;
+; signal_in[5]       ; signal_out[0] ; 192.314 ; 192.139 ; 192.946 ; 192.771 ;
+; signal_in[5]       ; signal_out[1] ; 192.421 ; 192.329 ; 193.053 ; 192.961 ;
+; signal_in[5]       ; signal_out[2] ; 191.661 ; 191.527 ; 192.293 ; 192.159 ;
+; signal_in[5]       ; signal_out[3] ; 192.144 ; 191.969 ; 192.776 ; 192.601 ;
+; signal_in[5]       ; signal_out[4] ; 191.968 ; 191.873 ; 192.600 ; 192.505 ;
+; signal_in[5]       ; signal_out[6] ; 192.789 ; 192.669 ; 193.421 ; 193.301 ;
+; signal_in[6]       ; signal_out[0] ; 192.718 ; 192.543 ; 193.001 ; 192.826 ;
+; signal_in[6]       ; signal_out[1] ; 192.825 ; 192.733 ; 193.108 ; 193.016 ;
+; signal_in[6]       ; signal_out[2] ; 192.065 ; 191.931 ; 192.348 ; 192.214 ;
+; signal_in[6]       ; signal_out[3] ; 192.548 ; 192.373 ; 192.831 ; 192.656 ;
+; signal_in[6]       ; signal_out[4] ; 192.372 ; 192.277 ; 192.655 ; 192.560 ;
+; signal_in[6]       ; signal_out[6] ; 193.193 ; 193.073 ; 193.476 ; 193.356 ;
+; signal_in[7]       ; signal_out[0] ; 192.521 ; 192.346 ; 192.999 ; 192.824 ;
+; signal_in[7]       ; signal_out[1] ; 192.628 ; 192.536 ; 193.106 ; 193.014 ;
+; signal_in[7]       ; signal_out[2] ; 191.868 ; 191.734 ; 192.346 ; 192.212 ;
+; signal_in[7]       ; signal_out[3] ; 192.351 ; 192.176 ; 192.829 ; 192.654 ;
+; signal_in[7]       ; signal_out[4] ; 192.175 ; 192.080 ; 192.653 ; 192.558 ;
+; signal_in[7]       ; signal_out[6] ; 192.996 ; 192.876 ; 193.474 ; 193.354 ;
++--------------------+---------------+---------+---------+---------+---------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Propagation Delay                                             ;
++--------------------+---------------+-------+--------+--------+--------+
+; Input Port         ; Output Port   ; RR    ; RF     ; FR     ; FF     ;
++--------------------+---------------+-------+--------+--------+--------+
+; position_rotor1[0] ; signal_out[0] ; 5.022 ; 4.942  ; 5.600  ; 5.564  ;
+; position_rotor1[0] ; signal_out[1] ; 5.275 ; 5.320  ; 5.897  ; 5.942  ;
+; position_rotor1[0] ; signal_out[2] ; 5.243 ; 5.277  ; 5.865  ; 5.899  ;
+; position_rotor1[0] ; signal_out[3] ; 5.284 ; 5.385  ; 5.906  ; 6.007  ;
+; position_rotor1[0] ; signal_out[4] ; 4.992 ; 5.113  ; 5.614  ; 5.691  ;
+; position_rotor1[0] ; signal_out[6] ; 6.430 ; 6.400  ; 7.052  ; 7.022  ;
+; position_rotor1[1] ; signal_out[0] ; 5.777 ; 5.720  ; 6.356  ; 6.299  ;
+; position_rotor1[1] ; signal_out[1] ; 5.884 ; 5.908  ; 6.463  ; 6.487  ;
+; position_rotor1[1] ; signal_out[2] ; 5.731 ; 5.697  ; 6.310  ; 6.276  ;
+; position_rotor1[1] ; signal_out[3] ; 5.883 ; 5.893  ; 6.462  ; 6.472  ;
+; position_rotor1[1] ; signal_out[4] ; 5.686 ; 5.698  ; 6.265  ; 6.277  ;
+; position_rotor1[1] ; signal_out[6] ; 6.537 ; 6.502  ; 7.116  ; 7.081  ;
+; position_rotor1[2] ; signal_out[0] ; 5.642 ; 5.585  ; 6.205  ; 6.148  ;
+; position_rotor1[2] ; signal_out[1] ; 5.749 ; 5.773  ; 6.312  ; 6.336  ;
+; position_rotor1[2] ; signal_out[2] ; 5.596 ; 5.562  ; 6.159  ; 6.125  ;
+; position_rotor1[2] ; signal_out[3] ; 5.748 ; 5.758  ; 6.311  ; 6.321  ;
+; position_rotor1[2] ; signal_out[4] ; 5.551 ; 5.563  ; 6.114  ; 6.126  ;
+; position_rotor1[2] ; signal_out[6] ; 6.402 ; 6.367  ; 6.965  ; 6.930  ;
+; position_rotor1[3] ; signal_out[0] ; 4.304 ; 4.247  ; 4.631  ; 4.574  ;
+; position_rotor1[3] ; signal_out[1] ; 4.411 ; 4.435  ; 4.738  ; 4.762  ;
+; position_rotor1[3] ; signal_out[2] ; 4.258 ; 4.224  ; 4.585  ; 4.551  ;
+; position_rotor1[3] ; signal_out[3] ; 4.410 ; 4.420  ; 4.737  ; 4.747  ;
+; position_rotor1[3] ; signal_out[4] ; 4.213 ; 4.225  ; 4.540  ; 4.552  ;
+; position_rotor1[3] ; signal_out[6] ; 5.064 ; 5.029  ; 5.391  ; 5.356  ;
+; position_rotor1[4] ; signal_out[0] ; 4.320 ; 4.263  ; 4.632  ; 4.575  ;
+; position_rotor1[4] ; signal_out[1] ; 4.427 ; 4.451  ; 4.739  ; 4.763  ;
+; position_rotor1[4] ; signal_out[2] ; 4.274 ; 4.240  ; 4.586  ; 4.552  ;
+; position_rotor1[4] ; signal_out[3] ; 4.426 ; 4.436  ; 4.738  ; 4.748  ;
+; position_rotor1[4] ; signal_out[4] ; 4.229 ; 4.241  ; 4.541  ; 4.553  ;
+; position_rotor1[4] ; signal_out[6] ; 5.080 ; 5.045  ; 5.392  ; 5.357  ;
+; position_rotor2[0] ; signal_out[0] ; 5.708 ; 5.779  ; 6.325  ; 6.396  ;
+; position_rotor2[0] ; signal_out[1] ; 5.919 ; 6.030  ; 6.536  ; 6.647  ;
+; position_rotor2[0] ; signal_out[2] ; 5.679 ; 5.760  ; 6.296  ; 6.377  ;
+; position_rotor2[0] ; signal_out[3] ; 5.569 ; 5.639  ; 6.186  ; 6.256  ;
+; position_rotor2[0] ; signal_out[4] ; 5.721 ; 5.808  ; 6.338  ; 6.425  ;
+; position_rotor2[0] ; signal_out[6] ; 6.283 ; 6.367  ; 6.900  ; 6.984  ;
+; position_rotor2[1] ; signal_out[0] ; 6.343 ; 6.414  ; 6.917  ; 6.988  ;
+; position_rotor2[1] ; signal_out[1] ; 6.554 ; 6.665  ; 7.128  ; 7.239  ;
+; position_rotor2[1] ; signal_out[2] ; 6.314 ; 6.395  ; 6.888  ; 6.969  ;
+; position_rotor2[1] ; signal_out[3] ; 6.204 ; 6.274  ; 6.778  ; 6.848  ;
+; position_rotor2[1] ; signal_out[4] ; 6.356 ; 6.443  ; 6.930  ; 7.017  ;
+; position_rotor2[1] ; signal_out[6] ; 6.918 ; 7.002  ; 7.492  ; 7.576  ;
+; position_rotor2[2] ; signal_out[0] ; 5.497 ; 5.568  ; 5.734  ; 5.805  ;
+; position_rotor2[2] ; signal_out[1] ; 5.708 ; 5.819  ; 5.945  ; 6.056  ;
+; position_rotor2[2] ; signal_out[2] ; 5.468 ; 5.549  ; 5.705  ; 5.786  ;
+; position_rotor2[2] ; signal_out[3] ; 5.358 ; 5.428  ; 5.595  ; 5.665  ;
+; position_rotor2[2] ; signal_out[4] ; 5.510 ; 5.597  ; 5.747  ; 5.834  ;
+; position_rotor2[2] ; signal_out[6] ; 6.072 ; 6.156  ; 6.309  ; 6.393  ;
+; position_rotor2[3] ; signal_out[0] ; 5.514 ; 5.585  ; 5.742  ; 5.813  ;
+; position_rotor2[3] ; signal_out[1] ; 5.725 ; 5.836  ; 5.953  ; 6.064  ;
+; position_rotor2[3] ; signal_out[2] ; 5.485 ; 5.566  ; 5.713  ; 5.794  ;
+; position_rotor2[3] ; signal_out[3] ; 5.375 ; 5.445  ; 5.603  ; 5.673  ;
+; position_rotor2[3] ; signal_out[4] ; 5.527 ; 5.614  ; 5.755  ; 5.842  ;
+; position_rotor2[3] ; signal_out[6] ; 6.089 ; 6.173  ; 6.317  ; 6.401  ;
+; position_rotor2[4] ; signal_out[0] ; 6.288 ; 6.359  ; 6.858  ; 6.929  ;
+; position_rotor2[4] ; signal_out[1] ; 6.499 ; 6.610  ; 7.069  ; 7.180  ;
+; position_rotor2[4] ; signal_out[2] ; 6.259 ; 6.340  ; 6.829  ; 6.910  ;
+; position_rotor2[4] ; signal_out[3] ; 6.149 ; 6.219  ; 6.719  ; 6.789  ;
+; position_rotor2[4] ; signal_out[4] ; 6.301 ; 6.388  ; 6.871  ; 6.958  ;
+; position_rotor2[4] ; signal_out[6] ; 6.863 ; 6.947  ; 7.433  ; 7.517  ;
+; position_rotor3[0] ; signal_out[0] ; 6.760 ; 6.753  ; 7.325  ; 7.347  ;
+; position_rotor3[0] ; signal_out[1] ; 6.971 ; 7.004  ; 7.536  ; 7.598  ;
+; position_rotor3[0] ; signal_out[2] ; 6.731 ; 6.734  ; 7.296  ; 7.328  ;
+; position_rotor3[0] ; signal_out[3] ; 6.621 ; 6.613  ; 7.186  ; 7.207  ;
+; position_rotor3[0] ; signal_out[4] ; 6.773 ; 6.782  ; 7.338  ; 7.376  ;
+; position_rotor3[0] ; signal_out[6] ; 7.335 ; 7.341  ; 7.900  ; 7.935  ;
+; position_rotor3[1] ; signal_out[0] ; 7.365 ; 7.539  ; 7.929  ; 8.103  ;
+; position_rotor3[1] ; signal_out[1] ; 7.576 ; 7.790  ; 8.140  ; 8.354  ;
+; position_rotor3[1] ; signal_out[2] ; 7.336 ; 7.520  ; 7.900  ; 8.084  ;
+; position_rotor3[1] ; signal_out[3] ; 7.226 ; 7.399  ; 7.790  ; 7.963  ;
+; position_rotor3[1] ; signal_out[4] ; 7.378 ; 7.568  ; 7.942  ; 8.132  ;
+; position_rotor3[1] ; signal_out[6] ; 7.940 ; 8.127  ; 8.504  ; 8.691  ;
+; position_rotor3[2] ; signal_out[0] ; 7.401 ; 7.575  ; 7.981  ; 8.155  ;
+; position_rotor3[2] ; signal_out[1] ; 7.612 ; 7.826  ; 8.192  ; 8.406  ;
+; position_rotor3[2] ; signal_out[2] ; 7.372 ; 7.556  ; 7.952  ; 8.136  ;
+; position_rotor3[2] ; signal_out[3] ; 7.262 ; 7.435  ; 7.842  ; 8.015  ;
+; position_rotor3[2] ; signal_out[4] ; 7.414 ; 7.604  ; 7.994  ; 8.184  ;
+; position_rotor3[2] ; signal_out[6] ; 7.976 ; 8.163  ; 8.556  ; 8.743  ;
+; position_rotor3[3] ; signal_out[0] ; 7.303 ; 7.477  ; 7.863  ; 8.037  ;
+; position_rotor3[3] ; signal_out[1] ; 7.514 ; 7.728  ; 8.074  ; 8.288  ;
+; position_rotor3[3] ; signal_out[2] ; 7.274 ; 7.458  ; 7.834  ; 8.018  ;
+; position_rotor3[3] ; signal_out[3] ; 7.164 ; 7.337  ; 7.724  ; 7.897  ;
+; position_rotor3[3] ; signal_out[4] ; 7.316 ; 7.506  ; 7.876  ; 8.066  ;
+; position_rotor3[3] ; signal_out[6] ; 7.878 ; 8.065  ; 8.438  ; 8.625  ;
+; position_rotor3[4] ; signal_out[0] ; 7.444 ; 7.618  ; 8.056  ; 8.230  ;
+; position_rotor3[4] ; signal_out[1] ; 7.655 ; 7.869  ; 8.267  ; 8.481  ;
+; position_rotor3[4] ; signal_out[2] ; 7.415 ; 7.599  ; 8.027  ; 8.211  ;
+; position_rotor3[4] ; signal_out[3] ; 7.305 ; 7.478  ; 7.917  ; 8.090  ;
+; position_rotor3[4] ; signal_out[4] ; 7.457 ; 7.647  ; 8.069  ; 8.259  ;
+; position_rotor3[4] ; signal_out[6] ; 8.019 ; 8.206  ; 8.631  ; 8.818  ;
+; signal_in[0]       ; signal_out[0] ; 9.298 ; 9.569  ; 10.167 ; 10.431 ;
+; signal_in[0]       ; signal_out[1] ; 9.509 ; 9.820  ; 10.378 ; 10.682 ;
+; signal_in[0]       ; signal_out[2] ; 9.269 ; 9.550  ; 10.138 ; 10.412 ;
+; signal_in[0]       ; signal_out[3] ; 9.159 ; 9.429  ; 10.028 ; 10.291 ;
+; signal_in[0]       ; signal_out[4] ; 9.311 ; 9.598  ; 10.180 ; 10.460 ;
+; signal_in[0]       ; signal_out[6] ; 9.873 ; 10.157 ; 10.742 ; 11.019 ;
+; signal_in[1]       ; signal_out[0] ; 9.155 ; 9.426  ; 10.013 ; 10.277 ;
+; signal_in[1]       ; signal_out[1] ; 9.366 ; 9.677  ; 10.224 ; 10.528 ;
+; signal_in[1]       ; signal_out[2] ; 9.126 ; 9.407  ; 9.984  ; 10.258 ;
+; signal_in[1]       ; signal_out[3] ; 9.016 ; 9.286  ; 9.874  ; 10.137 ;
+; signal_in[1]       ; signal_out[4] ; 9.168 ; 9.455  ; 10.026 ; 10.306 ;
+; signal_in[1]       ; signal_out[6] ; 9.730 ; 10.014 ; 10.588 ; 10.865 ;
+; signal_in[2]       ; signal_out[0] ; 8.939 ; 9.210  ; 9.769  ; 10.033 ;
+; signal_in[2]       ; signal_out[1] ; 9.150 ; 9.461  ; 9.980  ; 10.284 ;
+; signal_in[2]       ; signal_out[2] ; 8.910 ; 9.191  ; 9.740  ; 10.014 ;
+; signal_in[2]       ; signal_out[3] ; 8.800 ; 9.070  ; 9.630  ; 9.893  ;
+; signal_in[2]       ; signal_out[4] ; 8.952 ; 9.239  ; 9.782  ; 10.062 ;
+; signal_in[2]       ; signal_out[6] ; 9.514 ; 9.798  ; 10.344 ; 10.621 ;
+; signal_in[3]       ; signal_out[0] ; 9.257 ; 9.528  ; 10.130 ; 10.394 ;
+; signal_in[3]       ; signal_out[1] ; 9.468 ; 9.779  ; 10.341 ; 10.645 ;
+; signal_in[3]       ; signal_out[2] ; 9.228 ; 9.509  ; 10.101 ; 10.375 ;
+; signal_in[3]       ; signal_out[3] ; 9.118 ; 9.388  ; 9.991  ; 10.254 ;
+; signal_in[3]       ; signal_out[4] ; 9.270 ; 9.557  ; 10.143 ; 10.423 ;
+; signal_in[3]       ; signal_out[6] ; 9.832 ; 10.116 ; 10.705 ; 10.982 ;
+; signal_in[4]       ; signal_out[0] ; 9.172 ; 9.443  ; 10.025 ; 10.289 ;
+; signal_in[4]       ; signal_out[1] ; 9.383 ; 9.694  ; 10.236 ; 10.540 ;
+; signal_in[4]       ; signal_out[2] ; 9.143 ; 9.424  ; 9.996  ; 10.270 ;
+; signal_in[4]       ; signal_out[3] ; 9.033 ; 9.303  ; 9.886  ; 10.149 ;
+; signal_in[4]       ; signal_out[4] ; 9.185 ; 9.472  ; 10.038 ; 10.318 ;
+; signal_in[4]       ; signal_out[6] ; 9.747 ; 10.031 ; 10.600 ; 10.877 ;
+; signal_in[5]       ; signal_out[0] ; 9.197 ; 9.468  ; 10.033 ; 10.297 ;
+; signal_in[5]       ; signal_out[1] ; 9.408 ; 9.719  ; 10.244 ; 10.548 ;
+; signal_in[5]       ; signal_out[2] ; 9.168 ; 9.449  ; 10.004 ; 10.278 ;
+; signal_in[5]       ; signal_out[3] ; 9.058 ; 9.328  ; 9.894  ; 10.157 ;
+; signal_in[5]       ; signal_out[4] ; 9.210 ; 9.497  ; 10.046 ; 10.326 ;
+; signal_in[5]       ; signal_out[6] ; 9.772 ; 10.056 ; 10.608 ; 10.885 ;
+; signal_in[6]       ; signal_out[0] ; 9.230 ; 9.501  ; 10.095 ; 10.359 ;
+; signal_in[6]       ; signal_out[1] ; 9.441 ; 9.752  ; 10.306 ; 10.610 ;
+; signal_in[6]       ; signal_out[2] ; 9.201 ; 9.482  ; 10.066 ; 10.340 ;
+; signal_in[6]       ; signal_out[3] ; 9.091 ; 9.361  ; 9.956  ; 10.219 ;
+; signal_in[6]       ; signal_out[4] ; 9.243 ; 9.530  ; 10.108 ; 10.388 ;
+; signal_in[6]       ; signal_out[6] ; 9.805 ; 10.089 ; 10.670 ; 10.947 ;
+; signal_in[7]       ; signal_out[0] ; 9.388 ; 9.659  ; 10.259 ; 10.523 ;
+; signal_in[7]       ; signal_out[1] ; 9.599 ; 9.910  ; 10.470 ; 10.774 ;
+; signal_in[7]       ; signal_out[2] ; 9.359 ; 9.640  ; 10.230 ; 10.504 ;
+; signal_in[7]       ; signal_out[3] ; 9.249 ; 9.519  ; 10.120 ; 10.383 ;
+; signal_in[7]       ; signal_out[4] ; 9.401 ; 9.688  ; 10.272 ; 10.552 ;
+; signal_in[7]       ; signal_out[6] ; 9.963 ; 10.247 ; 10.834 ; 11.111 ;
++--------------------+---------------+-------+--------+--------+--------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; signal_out[0] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[1] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[2] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[3] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[4] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[5] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[6] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; signal_out[7] ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++-----------------------------------------------------------------------+
+; Input Transition Times                                                ;
++--------------------+--------------+-----------------+-----------------+
+; Pin                ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++--------------------+--------------+-----------------+-----------------+
+; signal_in[3]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[2]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[1]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[0]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[7]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[6]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[5]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; signal_in[4]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor1[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor1[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor1[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor1[4] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor1[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor2[4] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor2[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor2[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor2[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor2[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor3[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor3[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor3[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor3[4] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; position_rotor3[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO~      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_NCSO~      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++--------------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; signal_out[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; signal_out[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; signal_out[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; signal_out[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; signal_out[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; signal_out[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; signal_out[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.34 V              ; -0.00668 V          ; 0.218 V                              ; 0.076 V                              ; 1.92e-09 s                  ; 1.81e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.34 V             ; -0.00668 V         ; 0.218 V                             ; 0.076 V                             ; 1.92e-09 s                 ; 1.81e-09 s                 ; No                        ; Yes                       ;
+; signal_out[7] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.76e-09 V                   ; 2.4 V               ; -0.034 V            ; 0.102 V                              ; 0.065 V                              ; 2.49e-10 s                  ; 3.49e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 4.76e-09 V                  ; 2.4 V              ; -0.034 V           ; 0.102 V                             ; 0.065 V                             ; 2.49e-10 s                 ; 3.49e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.94e-09 V                   ; 2.39 V              ; -0.0344 V           ; 0.156 V                              ; 0.089 V                              ; 2.68e-10 s                  ; 2.6e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 5.94e-09 V                  ; 2.39 V             ; -0.0344 V          ; 0.156 V                             ; 0.089 V                             ; 2.68e-10 s                 ; 2.6e-10 s                  ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; signal_out[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; signal_out[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; signal_out[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; signal_out[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; signal_out[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; signal_out[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; signal_out[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.33 V              ; -0.00286 V          ; 0.193 V                              ; 0.042 V                              ; 2.32e-09 s                  ; 2.21e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.33 V             ; -0.00286 V         ; 0.193 V                             ; 0.042 V                             ; 2.32e-09 s                 ; 2.21e-09 s                 ; Yes                       ; Yes                       ;
+; signal_out[7] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.93e-07 V                   ; 2.37 V              ; -0.0278 V           ; 0.106 V                              ; 0.115 V                              ; 2.69e-10 s                  ; 4.05e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.93e-07 V                  ; 2.37 V             ; -0.0278 V          ; 0.106 V                             ; 0.115 V                             ; 2.69e-10 s                 ; 4.05e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.76e-07 V                   ; 2.36 V              ; -0.00439 V          ; 0.088 V                              ; 0.007 V                              ; 4.05e-10 s                  ; 3.35e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 9.76e-07 V                  ; 2.36 V             ; -0.00439 V         ; 0.088 V                             ; 0.007 V                             ; 4.05e-10 s                 ; 3.35e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; signal_out[0] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; signal_out[1] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; signal_out[2] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; signal_out[3] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; signal_out[4] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; signal_out[5] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; signal_out[6] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.65 V              ; -0.0115 V           ; 0.219 V                              ; 0.115 V                              ; 1.64e-09 s                  ; 1.57e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.65 V             ; -0.0115 V          ; 0.219 V                             ; 0.115 V                             ; 1.64e-09 s                 ; 1.57e-09 s                 ; No                        ; Yes                       ;
+; signal_out[7] ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.06e-08 V                   ; 2.86 V              ; -0.0341 V           ; 0.364 V                              ; 0.046 V                              ; 1.17e-10 s                  ; 2.6e-10 s                   ; No                         ; Yes                        ; 2.62 V                      ; 3.06e-08 V                  ; 2.86 V             ; -0.0341 V          ; 0.364 V                             ; 0.046 V                             ; 1.17e-10 s                 ; 2.6e-10 s                  ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.81e-08 V                   ; 2.72 V              ; -0.0542 V           ; 0.144 V                              ; 0.087 V                              ; 2.55e-10 s                  ; 2.14e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 3.81e-08 V                  ; 2.72 V             ; -0.0542 V          ; 0.144 V                             ; 0.087 V                             ; 2.55e-10 s                 ; 2.14e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 23    ; 23   ;
+; Unconstrained Input Port Paths  ; 138   ; 138  ;
+; Unconstrained Output Ports      ; 6     ; 6    ;
+; Unconstrained Output Port Paths ; 138   ; 138  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Mon May 06 23:05:20 2024
+Info: Command: quartus_sta Enigma -c Enigma
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Enigma.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info: Analyzing Fast 1200mV 0C Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4638 megabytes
+    Info: Processing ended: Mon May 06 23:05:22 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

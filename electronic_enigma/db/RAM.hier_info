@@ -1,0 +1,203 @@
+|RAM
+di => RAM_1bit:bit1.di
+di => RAM_1bit:bit2.di
+di => RAM_1bit:bit3.di
+di => RAM_1bit:bit4.di
+di => RAM_1bit:bit5.di
+clock => RAM_1bit:bit1.clock
+clock => RAM_1bit:bit2.clock
+clock => RAM_1bit:bit3.clock
+clock => RAM_1bit:bit4.clock
+clock => RAM_1bit:bit5.clock
+R => RAM_1bit:bit1.R
+R => RAM_1bit:bit2.R
+R => RAM_1bit:bit3.R
+R => RAM_1bit:bit4.R
+R => RAM_1bit:bit5.R
+W => RAM_1bit:bit1.W
+W => RAM_1bit:bit2.W
+W => RAM_1bit:bit3.W
+W => RAM_1bit:bit4.W
+W => RAM_1bit:bit5.W
+sin[0] => RAM_1bit:bit1.sin
+sin[1] => RAM_1bit:bit2.sin
+sin[2] => RAM_1bit:bit3.sin
+sin[3] => RAM_1bit:bit4.sin
+sin[4] => RAM_1bit:bit5.sin
+out_incri[0] => RAM_1bit:bit1.out_incri
+out_incri[1] => RAM_1bit:bit2.out_incri
+out_incri[2] => RAM_1bit:bit3.out_incri
+out_incri[3] => RAM_1bit:bit4.out_incri
+out_incri[4] => RAM_1bit:bit5.out_incri
+sout[0] <= RAM_1bit:bit1.sout
+sout[1] <= RAM_1bit:bit2.sout
+sout[2] <= RAM_1bit:bit3.sout
+sout[3] <= RAM_1bit:bit4.sout
+sout[4] <= RAM_1bit:bit5.sout
+
+
+|RAM|RAM_1bit:bit1
+di => comb.IN0
+di => mux_1bit:pass1.di
+clock => memoire:pass2.CLOCK
+R => memoire:pass2.R
+W => comb.IN1
+sin => mux_1bit:pass1.sin
+out_incri => mux_1bit:pass1.out_incri
+sout <= memoire:pass2.DOUT
+
+
+|RAM|RAM_1bit:bit1|mux_1bit:pass1
+sin => out_put.DATAB
+out_incri => out_put.DATAA
+di => out_put.OUTPUTSELECT
+out_put <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit1|memoire:pass2
+DIN => A.IN0
+CLOCK => bascul:U1.clk
+W => A.IN1
+W => A.IN1
+R => DOUT.IN1
+DOUT <= DOUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit1|memoire:pass2|bascul:U1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit2
+di => comb.IN0
+di => mux_1bit:pass1.di
+clock => memoire:pass2.CLOCK
+R => memoire:pass2.R
+W => comb.IN1
+sin => mux_1bit:pass1.sin
+out_incri => mux_1bit:pass1.out_incri
+sout <= memoire:pass2.DOUT
+
+
+|RAM|RAM_1bit:bit2|mux_1bit:pass1
+sin => out_put.DATAB
+out_incri => out_put.DATAA
+di => out_put.OUTPUTSELECT
+out_put <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit2|memoire:pass2
+DIN => A.IN0
+CLOCK => bascul:U1.clk
+W => A.IN1
+W => A.IN1
+R => DOUT.IN1
+DOUT <= DOUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit2|memoire:pass2|bascul:U1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit3
+di => comb.IN0
+di => mux_1bit:pass1.di
+clock => memoire:pass2.CLOCK
+R => memoire:pass2.R
+W => comb.IN1
+sin => mux_1bit:pass1.sin
+out_incri => mux_1bit:pass1.out_incri
+sout <= memoire:pass2.DOUT
+
+
+|RAM|RAM_1bit:bit3|mux_1bit:pass1
+sin => out_put.DATAB
+out_incri => out_put.DATAA
+di => out_put.OUTPUTSELECT
+out_put <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit3|memoire:pass2
+DIN => A.IN0
+CLOCK => bascul:U1.clk
+W => A.IN1
+W => A.IN1
+R => DOUT.IN1
+DOUT <= DOUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit3|memoire:pass2|bascul:U1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit4
+di => comb.IN0
+di => mux_1bit:pass1.di
+clock => memoire:pass2.CLOCK
+R => memoire:pass2.R
+W => comb.IN1
+sin => mux_1bit:pass1.sin
+out_incri => mux_1bit:pass1.out_incri
+sout <= memoire:pass2.DOUT
+
+
+|RAM|RAM_1bit:bit4|mux_1bit:pass1
+sin => out_put.DATAB
+out_incri => out_put.DATAA
+di => out_put.OUTPUTSELECT
+out_put <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit4|memoire:pass2
+DIN => A.IN0
+CLOCK => bascul:U1.clk
+W => A.IN1
+W => A.IN1
+R => DOUT.IN1
+DOUT <= DOUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit4|memoire:pass2|bascul:U1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit5
+di => comb.IN0
+di => mux_1bit:pass1.di
+clock => memoire:pass2.CLOCK
+R => memoire:pass2.R
+W => comb.IN1
+sin => mux_1bit:pass1.sin
+out_incri => mux_1bit:pass1.out_incri
+sout <= memoire:pass2.DOUT
+
+
+|RAM|RAM_1bit:bit5|mux_1bit:pass1
+sin => out_put.DATAB
+out_incri => out_put.DATAA
+di => out_put.OUTPUTSELECT
+out_put <= out_put.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit5|memoire:pass2
+DIN => A.IN0
+CLOCK => bascul:U1.clk
+W => A.IN1
+W => A.IN1
+R => DOUT.IN1
+DOUT <= DOUT.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RAM|RAM_1bit:bit5|memoire:pass2|bascul:U1
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

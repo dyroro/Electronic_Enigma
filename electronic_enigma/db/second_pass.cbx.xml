@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="second_pass">
+		<CBX_INST_ENTRY INSTANCE_NAME="|second_pass|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_2uo.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

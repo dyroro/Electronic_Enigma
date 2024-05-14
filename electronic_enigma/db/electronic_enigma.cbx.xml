@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="electronic_enigma">
+		<CBX_INST_ENTRY INSTANCE_NAME="|electronic_enigma|Enigma:enigma_alghorithme|first_pass:pass1|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_0uo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|electronic_enigma|Enigma:enigma_alghorithme|first_pass:pass3|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_0uo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|electronic_enigma|Enigma:enigma_alghorithme|second_pass:pass5|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_2uo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|electronic_enigma|Enigma:enigma_alghorithme|second_pass:pass7|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_2uo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|electronic_enigma|Enigma:enigma_alghorithme|first_pass:pass2|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_0uo.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|electronic_enigma|Enigma:enigma_alghorithme|second_pass:pass6|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_2uo.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

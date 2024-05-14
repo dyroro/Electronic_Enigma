@@ -1,0 +1,12 @@
+|test
+test_bit <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+signal_entree[0] => LessThan0.IN64
+signal_entree[1] => LessThan0.IN63
+signal_entree[2] => LessThan0.IN62
+signal_entree[3] => LessThan0.IN61
+signal_entree[4] => LessThan0.IN60
+signal_entree[5] => LessThan0.IN59
+signal_entree[6] => LessThan0.IN58
+signal_entree[7] => LessThan0.IN57
+
+

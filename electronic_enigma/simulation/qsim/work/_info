@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\user\Desktop\electronic_enigma\simulation\qsim
+velectronic_enigma
+Z1 !s100 7>RET2LNh_`@9f5>E8DY^3
+Z2 ITdYXkG_4JGE1TcNR3@cUI0
+Z3 VSTej^l`;Y6OUz^PBJgOXo1
+Z4 dC:\Users\user\Desktop\electronic_enigma\simulation\qsim
+Z5 w1715037075
+Z6 8electronic_enigma.vo
+Z7 Felectronic_enigma.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|electronic_enigma.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1715037075.858000
+Z12 !s107 electronic_enigma.vo|
+!s101 -O0
+velectronic_enigma_vlg_check_tst
+!i10b 1
+Z13 !s100 ibICi;[Ki6DK;CU=4]QLK0
+Z14 I?fH;O?B2:j=2if[[JEa]Q0
+Z15 V<ChYM@8KfX>Y?iJf?;X4@2
+R4
+Z16 w1715037074
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z19 !s108 1715037076.038000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+velectronic_enigma_vlg_sample_tst
+!i10b 1
+Z22 !s100 KiDLJZO`4b`UnzMZ?V3VS0
+Z23 IA9F;3RdSAGeAUmWJ4B`lR0
+Z24 V<f>LolJmMVG_i7R]Mz95^3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+velectronic_enigma_vlg_vec_tst
+!i10b 1
+!s100 WlbQI:f]kY=GooJ?7eG780
+I2W:gV34[6@B4]jXLU5dRS3
+Z25 VMbN``LLdTESb04K`BOcAQ0
+R4
+R16
+R17
+R18
+Z26 L0 287
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
