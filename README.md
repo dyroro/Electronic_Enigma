@@ -39,7 +39,7 @@
         <section>
             <h2>Développement des modules</h2>
             <h3>Modules en VHDL</h3>
-            <p>...</p> <!-- Continue with the rest of the content as needed -->
+            <p>...FOR MORE DETAILS READ PDF DOCUMENT IN  THE REPOSITORY !!!</p> <!-- Continue with the rest of the content as needed -->
         </section>
     </div>
 </body>
