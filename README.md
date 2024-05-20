@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Implémentation de l'Enigma en VHDL</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -45,56 +44,3 @@
     </div>
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
-    background: #fff;
-}
-
-h1, h2, h3 {
-    color: #333;
-    text-align: center;
-}
-
-h1 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background: #e4e4e4;
-    margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-p {
-    margin: 10px 0;
-}
-
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
-}
