@@ -12,7 +12,6 @@
         <ul>
             <li>Ali nechchadi</li>
             <li>Omar nechchadi</li>
-            <li>Abir Werzgan</li>
         </ul>
         <section>
             <h2>Contexte historique de l'Enigma</h2>
